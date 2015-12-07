@@ -1,0 +1,67 @@
+﻿@inherits Umbraco.Web.Mvc.UmbracoTemplatePage
+@{ 
+    var home = CurrentPage.Site();
+}
+
+@if (home.Children.Where("Visible").Any())
+{
+    @* For each child page under the home node, where the property umbracoNaviHide is not True *@
+    foreach (var childPage in home.Children.Where("Visible"))
+    {   
+        <div>
+            @if (childPage.Children.Where("Visible").Any())
+            {                    
+                <strong>@childPage.Name</strong>
+                @childPages(childPage.Children)
+            }
+        </div>
+    }
+}
+<div>
+    <ul>
+        <li class="fondo-social">
+            <ul class="menu-social">
+                <li>
+                    <a href="https://www.facebook.com/hernanmdemczuk" title="Facebook" target="_blank"><i class="fa fa-facebook-square fa-2x"></i></a>
+                </li>
+                <li>
+                    <a href="https://github.com/hernandemczuk" title="GitHub" target="_blank"><i class="fa fa-github-square fa-2x"></i></a>
+                </li>
+                <li>
+                    <a href="https://www.youtube.com/user/hernanmartindemczuk" title="YouTube" target="_blank"><i class="fa fa-youtube-square fa-2x"></i></a>
+                </li>
+                <li>
+                    <a href="https://ar.linkedin.com/in/hernandemczuk" title="LinkedIn" target="_blank"><i class="fa fa-linkedin-square fa-2x"></i></a>
+                </li>
+                <li>
+                    <a href="https://plus.google.com/+hernanmartindemczuk/" title="Google+" target="_blank"><i class="fa fa-google-plus-square fa-2x"></i></a>
+                </li>
+                <li>
+                    <a href="https://twitter.com/HMartin91" title="Twitter" target="_blank"><i class="fa fa-twitter-square fa-2x"></i></a>
+                </li>
+                <li>
+                    <a href="https://www.facebook.com/hernanmdemczuk" title="Enviar Correo" target="_blank"><i class="fa fa-envelope fa-2x"></i></a>
+                </li>
+            </ul>
+        </li>
+    </ul>
+</div>
+<div class="copyright">
+    <p>&#169; @DateTime.Now.Year Build by <a href="https://about.me/hernandemczuk" target="_blank">Hernan Demczuk</a>. Powered by Umbraco.</p>
+</div>
+
+@helper childPages(dynamic pages)
+{
+    @* Ensure that we have a collection of pages *@
+    if (pages.Any())
+    {
+        <ul>
+            @foreach (var page in pages.Where("Visible"))
+            {
+                <li>
+                    <a href="@page.Url">@page.Name</a>
+                </li>
+            }
+        </ul>
+    }
+}

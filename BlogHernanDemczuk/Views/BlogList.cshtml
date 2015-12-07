@@ -1,0 +1,91 @@
+﻿@inherits Umbraco.Web.Mvc.UmbracoTemplatePage
+@{
+    Layout = "Master.cshtml";
+    int colorCount = 1;
+    string alterColor = "alterColorBlanco";
+    var pageSize = 3;
+    var page = 1;
+    int.TryParse(Request.QueryString["page"], out page);
+    var items = Model.Content.Children().Where(x => x.IsDocumentType("BlogPost")).OrderByDescending(x => x.CreateDate);
+    var totalPages = (int)Math.Ceiling((double)items.Count() / (double)pageSize);
+
+    if (page > totalPages)
+    {
+        page = totalPages;
+    }
+    else if (page < 1)
+    {
+        page = 1;
+    }
+}
+
+<div role="content">
+    <section>
+        <div class="row">
+            @{
+                foreach (var post in Model.Content.Children.OrderByDescending(x => x.CreateDate).Where(x => x.DocumentTypeAlias == "BlogPost").Skip((page - 1) * pageSize).Take(pageSize))
+                {
+                            if (colorCount % 2 == 0)
+                            {
+                                alterColor = "alterColorBlanco";
+                            }
+                            else
+                            {
+                                alterColor = "alterColorGris";
+                            }
+                    <div class="post-resumen @alterColor">
+                        <div class="container">
+                            <a href="@post.Url">
+                                <div class="date">@post.CreateDate.ToLongDateString().ToUpper()</div>
+                                <h2>@post.Name</h2>
+                                <p>@Umbraco.Truncate(post.GetPropertyValue("introduccion").ToString(), 500, true)</p>
+                                <img src="@Umbraco.Media(post.GetPropertyValue("thumb")).Url" alt="Post Thumbnail" />
+                            </a>
+                            <ul class="tags">
+                                @foreach (var tag in UmbracoContext.Application.Services.TagService.GetTagsForProperty(post.Id, "tags"))
+                                {
+                                    <a href="/tags?tag=@tag.Text" title="Get content tagged with @tag.Text">
+                                        <li class="tag">
+                                            @tag.Text
+                                        </li>
+                                    </a>
+                                }
+                            </ul>
+                        </div>
+                    </div>
+                    colorCount++;
+                }
+            }
+        </div>
+    </section>
+
+    <section>
+        @if (totalPages > 1)
+        {
+            <div class="container">
+                <ul class="paginacion">
+                    @if (page > 1)
+                    {
+                        <li>
+                            <a href="?page=@(page-1)">ANTERIOR</a>
+                        </li>
+                    }
+                    @for (int p = 1; p < totalPages + 1; p++)
+                    {
+                        var active = (p == page) ? " class=\"active\"" : string.Empty;
+                        <li @(Html.Raw(active))>
+                            <a href="?page=@p">@p</a>
+                        </li>
+                    }
+
+                    @if (page < totalPages)
+                    {
+                        <li>
+                            <a href="?page=@(page+1)">SIGUIENTE</a>
+                        </li>
+                    }
+                </ul>
+            </div>
+        }
+    </section>
+</div>
