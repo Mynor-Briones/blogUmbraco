@@ -311,8 +311,12 @@
     <Content Include="Config\Lang\ru-RU.user.xml" />
     <Content Include="Config\Lang\sv-SE.user.xml" />
     <Content Include="Config\Lang\zh-CN.user.xml" />
+    <Content Include="css\reset.css" />
+    <Content Include="css\style.css" />
     <Content Include="default.aspx" />
     <Content Include="Global.asax" />
+    <Content Include="images\argentina.png" />
+    <Content Include="images\perfil.jpg" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
