@@ -22,17 +22,15 @@
 
     if (selection.Any())
     {
-		<div class="container-menu">
-			<ul>
-				@foreach (var item in selection)
-				{
-					<div class="container-menu">
-						<li>
-							<a href="@item.Url">@item.Name.ToUpper()</a>
-						</li>
-					</div>
-				}
-			</ul>
-		</div>
+		<ul class="container-menu-nav">
+			@foreach (var item in selection)
+			{
+				<div class="link-nav">
+					<li>
+						<a href="@item.Url">@item.Name.ToUpper()</a>
+					</li>
+				</div>
+			}
+		</ul>
     }
 }

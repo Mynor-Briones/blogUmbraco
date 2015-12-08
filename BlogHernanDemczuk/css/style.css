@@ -56,6 +56,11 @@ footer .fondo-social {
     padding: 0 10px;
 }
 
+.link-nav {
+    padding-left: 10px;
+    background-color: #00C0FF;
+}
+
 .navegacion.container {
     padding: 0;
 }
@@ -141,7 +146,7 @@ li p {
 
 .menu-social > li {
     float: left;
-    margin: 0 5px;
+    margin-right: 10px;
     padding: 0;
 }
 
@@ -159,7 +164,7 @@ li p {
 }
 
 .menu:hover > li > .sub-menu {
-    opacity: 1;
+    display: block;
 }
 
 .menu .arrow {
@@ -170,7 +175,7 @@ li p {
 .sub-menu {
     position: absolute;
     overflow: hidden;
-    opacity: 0;
+    display: none;
     padding-top: 10px;
     margin-left: -10px;
     width: 230px;
@@ -219,6 +224,7 @@ h2 {
 
 .tags {
     clear: both;
+    overflow: hidden;
 }
 
 .tags li {
@@ -244,14 +250,14 @@ h2 {
 
 @media only screen and (min-width: 768px) {
 
-    .fa, li .container-menu a {
+    .fa, li .container-menu a, .link-nav a {
         -webkit-transition: color ease-out 250ms;
         -moz-transition: color ease-out 250ms;
         -o-transition: color ease-out 250ms;
         transition: color ease-out 250ms;
     }
 
-    .fa:hover, li .container-menu a:hover {
+    .fa:hover, li .container-menu a:hover, .link-nav a:hover {
         color: #3f3f3f;
     }
 
@@ -267,12 +273,13 @@ h2 {
         padding: 0 20px;
     }
 
-    .container-menu {
+    .container-menu , .container-menu-nav, .container-menu-nav div li {
         float: right;
     }
 
     .desktop {
         display: block;
+        margin: 0 !important;
     }
 
     .logo-perfil-desktop {
@@ -299,19 +306,19 @@ h2 {
         padding-bottom: 20px;
     }
 
-        .logo-titulo h1, .post-resumen h2 {
-            font-size: 45px;
-        }
+    .logo-titulo h1, .post-resumen h2 {
+        font-size: 45px;
+    }
 
-        .logo-titulo h2 {
-            font-size: 25px;
-            margin-bottom: 15px;
-        }
+    .logo-titulo h2 {
+        font-size: 25px;
+        margin-bottom: 15px;
+    }
 
-        .logo-titulo h4 {
-            font-size: 20px;
-            margin-bottom: 10px;
-        }
+    .logo-titulo h4 {
+        font-size: 20px;
+        margin-bottom: 10px;
+    }
 
     .menu-social {
         margin-top: 3px;
@@ -331,6 +338,11 @@ h2 {
         overflow: hidden;
     }
 
+    .link-nav {
+        float: right;
+        padding-left: 15px;
+    }
+
     .post-resumen img {
         display: block;
         float: right;
@@ -340,6 +352,10 @@ h2 {
     .post-resumen p {
         float: left;
         width: 68%;
+    }
+
+    .date p {
+       float: none !important;
     }
 
     .tag {
@@ -354,34 +370,45 @@ h2 {
         background-color: #00C0FF;
     }
 
-    /* BLOG POST */
+    /* BLOG POST*/
 
-    .umb-grid h1 {
-        text-align:left; 
-        line-height: 75px;
-        font-size: 60px; 
-        font-weight: 500; 
-        padding-bottom: 30px; 
-        font-family: 'Francois One', sans-serif;
+    .header-article {
+        background-color:  #ededed;
+        padding: 15px 0;
     }
 
-    blockquote {
-        background: #f9f9f9;
-        border-left: 10px solid #ccc;
-        margin: 1.5em 10px;
-        padding: 0.5em 10px;
-        quotes: "\201C""\201D""\2018""\2019";
+    article * {
         font-family: 'Open Sans', sans-serif;
         font-weight: 400;
+        color: #3f3f3f;
     }
 
-    blockquote:before {
-        color: #ededed;
-        content: open-quote;
-        font-size: 4em;
-        line-height: 0.1em;
-        margin-right: 0.25em;
-        vertical-align: -0.4em;
+    article {
+        padding: 25px 0;
+    }
+
+    #fechaAutor {
+        padding-bottom: 15px;
+    }
+
+    article h1 {
+        font-size: 70px;
+        font-weight: 700;
+        padding-bottom: 15px;
+    }
+
+    .contenido {
+        padding: 20px 0;
+    }
+
+    .thumb-post {
+        float: right;
+        padding-left: 15px;
+    }
+
+    .contenido p {
+        font-size: 20px;
+        line-height: 30px;
     }
 }
 

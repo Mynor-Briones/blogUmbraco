@@ -1,5 +1,31 @@
 ﻿@inherits Umbraco.Web.Mvc.UmbracoTemplatePage
 @{
     Layout = "Master.cshtml";
+	string[] tagsList = @Umbraco.Field("tags").ToString().Split(',');
 }
-@Umbraco.Field("createDate")
+<div class="main">
+	<article>
+		<div class="header-article">
+			<div class="container">
+				<p id="fechaAutor">@Umbraco.Field("createDate", formatAsDate: true).ToString().ToUpper()
+				<h1>@Umbraco.Field("titloDelPost")</h1>
+				<ul class="tags">
+					@foreach (var tag in tagsList)
+					{
+						<a href="/tags?tag=@tag" title="@tag">
+							<li class="tag">@tag</li>
+						</a>
+					}
+				</ul>
+			</div>
+		</div>
+		<div class="container">
+			<div class="contenido">
+				<div class="thumb-post">
+					<img src="@Umbraco.Media(@Umbraco.Field("thumb").ToString()).Url" alt=""/>
+				</div>
+				@Umbraco.Field("contenido")
+			</div>
+		</div>
+	</article>
+</div>

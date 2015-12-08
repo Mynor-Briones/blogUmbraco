@@ -36,7 +36,9 @@
                     <div class="post-resumen @alterColor">
                         <div class="container">
                             <a href="@post.Url">
-                                <div class="date">@post.CreateDate.ToLongDateString().ToUpper()</div>
+								<div class="date">
+                                	<p>@post.CreateDate.ToLongDateString().ToUpper()
+								</div>
                                 <h2>@post.Name</h2>
                                 <p>@Umbraco.Truncate(post.GetPropertyValue("introduccion").ToString(), 500, true)</p>
                                 <img src="@Umbraco.Media(post.GetPropertyValue("thumb")).Url" alt="Post Thumbnail" />
