@@ -1,7 +1,6 @@
 ﻿@inherits Umbraco.Web.Mvc.UmbracoTemplatePage
 @{  
     var tagList = Umbraco.TagQuery.GetAllContentTags().OrderBy(t => t.Text);
-    var posts = 0;
  }
     <ul>
         <li class="fondo-social">
@@ -34,12 +33,8 @@
                 <li class="desktop">
                     <div class="container-menu">
                         <ul class="menu">
-                            @foreach (var post in Model.Content.Children.Where(x => x.DocumentTypeAlias == "BlogPost"))
-                            {
-                                posts++;
-                            }
                             <li>
-                                <a href="">TODOS MIS POSTS (@posts POSTS)<span class="arrow"> &#9660;</span></a>
+                                <a href="">TODOS MIS POSTS @Umbraco.RenderMacro("PostsCount", new {startNodeId="1077"})<span class="arrow"> &#9660;</span></a>
                                 <ul class="sub-menu">
                                     @foreach (var tag in tagList)
                                     {
