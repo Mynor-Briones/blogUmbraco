@@ -4,6 +4,10 @@ h1, h2, h3, h4, h5, h6, p, a, a:visited {
     color: inherit;
 }
 
+i {
+    font-style: italic;
+}
+
 .active {
     color: #3f3f3f !important;
 }
@@ -191,6 +195,7 @@ li p {
     color: #3f3f3f;
     padding: 25px 0;
     overflow: hidden;
+    border-top: 2px solid #d2d2d2;
 }
 
 .post-resumen h2 {
@@ -375,11 +380,12 @@ h2 {
     .header-article {
         background-color:  #ededed;
         padding: 15px 0;
+        border-top: 2px solid #d2d2d2;
+        border-bottom: 2px solid #d2d2d2;
     }
 
     article * {
         font-family: 'Open Sans', sans-serif;
-        font-weight: 400;
         color: #3f3f3f;
     }
 
@@ -389,12 +395,13 @@ h2 {
 
     #fechaAutor {
         padding-bottom: 15px;
+        font-weight: 400;
     }
 
     article h1 {
         font-size: 70px;
         font-weight: 700;
-        padding-bottom: 15px;
+        padding-bottom: 20px;
     }
 
     .contenido {
@@ -404,11 +411,40 @@ h2 {
     .thumb-post {
         float: right;
         padding-left: 15px;
+        padding-top: 10px;
+    }
+
+    .thumb-post p {
+        text-align: center;
+    }
+
+    .thumb-post p i {
+        font-size: 18px;
     }
 
     .contenido p {
         font-size: 20px;
         line-height: 30px;
+        font-weight: 400;
+    }
+
+    .contenido h2 {
+        padding: 50px 0;
+        font-size: 35px;
+        font-weight: 700;
+    }
+
+    .contenido strong {
+        border-bottom: 4px dotted #3f3f3f;
+    }
+
+    .contenido a {
+        border-bottom: 3px solid #00C0FF;
+        color: #00C0FF;
+    }
+
+    .contenido img {
+        max-width: 100%;
     }
 }
 

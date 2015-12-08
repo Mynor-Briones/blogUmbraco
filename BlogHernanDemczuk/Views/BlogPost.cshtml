@@ -22,8 +22,10 @@
 		<div class="container">
 			<div class="contenido">
 				<div class="thumb-post">
-					<img src="@Umbraco.Media(@Umbraco.Field("thumb").ToString()).Url" alt=""/>
+					<img src="@Umbraco.Media(@Umbraco.Field("thumb").ToString()).Url" alt="@Umbraco.Field("caption")"/>
+					<p><i>@Umbraco.Field("caption")</i></p>
 				</div>
+				<p>@Umbraco.Truncate(Umbraco.Field("introduccion").ToString(), 500, true)</p>
 				@Umbraco.Field("contenido")
 			</div>
 		</div>

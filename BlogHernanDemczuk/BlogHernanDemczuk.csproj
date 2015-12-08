@@ -435,6 +435,7 @@
     <Content Include="Config\Lang\sv-SE.user.xml" />
     <Content Include="Config\Lang\zh-CN.user.xml" />
     <Content Include="css\reset.css" />
+    <Content Include="css\rte.css" />
     <Content Include="css\style.css" />
     <Content Include="default.aspx" />
     <Content Include="Global.asax" />
@@ -446,6 +447,10 @@
     <Content Include="media\1002\azure_thumb.jpg" />
     <Content Include="media\1003\sistema-de-gestion-negocio.png" />
     <Content Include="media\1003\sistema-de-gestion-negocio_thumb.jpg" />
+    <Content Include="media\1004\azure.jpg" />
+    <Content Include="media\1004\azure_thumb.jpg" />
+    <Content Include="media\1005\buenosaires.jpg" />
+    <Content Include="media\1005\buenosaires_thumb.jpg" />
     <Content Include="umbraco\Actions\delete.aspx" />
     <Content Include="umbraco\Actions\editContent.aspx" />
     <Content Include="umbraco\Actions\preview.aspx" />

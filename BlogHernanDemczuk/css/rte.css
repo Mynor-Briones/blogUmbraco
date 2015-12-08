@@ -1,0 +1,20 @@
+
+
+
+
+
+
+/**umb_name:Subtitulo*/
+h2{}
+
+/**umb_name:Texto*/
+.texto-post{}
+
+/**umb_name:Cita*/
+.cita-post{}
+
+/**umb_name:Resaltado*/
+.resaltado-post{border-bottom: 5px dotted #00C0FF;}
+
+/**umb_name:Image Total Width*/
+.ImageTotalWidth{}
