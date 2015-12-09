@@ -4,7 +4,7 @@ h1, h2, h3, h4, h5, h6, p, a, a:visited {
     color: inherit;
 }
 
-i {
+i, em {
     font-style: italic;
 }
 
@@ -405,21 +405,32 @@ h2 {
     }
 
     .contenido {
-        padding: 20px 0;
+        padding-top: 10px;
+        padding-bottom: 20px;
+    }
+
+    p.introduccion {
+        line-height: 40px !important;
     }
 
     .thumb-post {
         float: right;
         padding-left: 15px;
-        padding-top: 15px;
+        padding-top: 25px;
     }
 
-    .thumb-post p {
+    .thumb-post p, .Image45 p {
         text-align: center;
     }
 
-    .thumb-post p i {
+    .thumb-post p i, .Image45 p em {
         font-size: 18px;
+    }
+
+    .video {
+        width: 683px;
+        margin: 0 auto;
+        padding: 25px 0;
     }
 
     .contenido p, .contenido ul li {
@@ -429,14 +440,13 @@ h2 {
         padding: 10px 0;
     }
 
-    .contenido ul {
-        padding: 0;
-        margin: 0;
+    .lista-left {
+        margin-left: 45%;
+        padding-left: 35px;
         list-style-type: square;
     }
 
-    .contenido ul li {
-        margin-left: 20px;
+    ul.lista-left li {
         font-weight: 700;
     }
 
@@ -444,10 +454,11 @@ h2 {
         padding: 30px 0;
         font-size: 35px;
         font-weight: 700;
+        clear: both;
     }
 
     .contenido strong {
-        border-bottom: 4px dotted #3f3f3f;
+        background-color: #ededed;
     }
 
     .contenido a {
@@ -461,14 +472,20 @@ h2 {
 
     .ImageRight {
         float: right;
+        max-width: 45%;
+        padding-top: 15px;
+        padding-left: 15px;
     }
 
-    .ImageRight img {
-        max-width: 700px;
+    .ImageLeft {
+        float: left;
+        max-width: 45%;
+        padding-top: 15px;
+        padding-right: 15px;
     }
 
-    .Image3InARow img {
-        width: 30%;
+    .ImageRight img, .ImageLeft img {
+        max-width: 100%;
     }
 
     .cita-post:before {
@@ -477,6 +494,21 @@ h2 {
       font-size: 40px;
       margin-right: 0.25em;
       vertical-align: -0.25em;
+    }
+
+    .Image45 {
+        padding-bottom: 15px;
+    }
+
+    .Image45 img {
+        max-width: 100%;
+    }
+
+    .left {
+        padding-top: 15px;
+        margin-right: 15px;
+        float: left;
+        max-width: 45%;
     }
 }
 

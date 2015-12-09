@@ -1,0 +1,1890 @@
+﻿ 2015-12-08 00:03:02,626 [P5080/D3/T40] ERROR Umbraco.Core.UmbracoApplicationBase - An unhandled exception occurred
+System.Web.HttpCompileException (0x80004005): c:\Users\HernanMartin\Desktop\BlogHernanDemczuk\BlogHernanDemczuk\BlogHernanDemczuk\Views\BlogPost.cshtml(12): error CS0103: The name 'Node' does not exist in the current context
+   en System.Web.Compilation.AssemblyBuilder.Compile()
+   en System.Web.Compilation.BuildProvidersCompiler.PerformBuild()
+   en System.Web.Compilation.BuildManager.CompileWebFile(VirtualPath virtualPath)
+   en System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   en System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   en System.Web.Compilation.BuildManager.GetVirtualPathObjectFactory(VirtualPath virtualPath, HttpContext context, Boolean allowCrossApp, Boolean throwIfNotFound)
+   en System.Web.Compilation.BuildManager.GetCompiledType(VirtualPath virtualPath)
+   en System.Web.Compilation.BuildManager.GetCompiledType(String virtualPath)
+   en System.Web.Mvc.BuildManagerWrapper.System.Web.Mvc.IBuildManager.GetCompiledType(String virtualPath)
+   en System.Web.Mvc.BuildManagerCompiledView.Render(ViewContext viewContext, TextWriter writer)
+   en Umbraco.Core.Profiling.ProfilingView.Render(ViewContext viewContext, TextWriter writer)
+   en System.Web.Mvc.ViewResultBase.ExecuteResult(ControllerContext context)
+   en System.Web.Mvc.ControllerActionInvoker.InvokeActionResult(ControllerContext controllerContext, ActionResult actionResult)
+   en System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   en System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   en System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   en System.Web.Mvc.ControllerActionInvoker.InvokeActionResultWithFilters(ControllerContext controllerContext, IList`1 filters, ActionResult actionResult)
+   en System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<>c__DisplayClass2b.<BeginInvokeAction>b__1c()
+   en System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<BeginInvokeAction>b__1e(IAsyncResult asyncResult)
+   en System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.CallEndDelegate(IAsyncResult asyncResult)
+   en System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   en System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeAction(IAsyncResult asyncResult)
+   en System.Web.Mvc.Controller.<BeginExecuteCore>b__1d(IAsyncResult asyncResult, ExecuteCoreState innerState)
+   en System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   en System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   en System.Web.Mvc.Controller.EndExecuteCore(IAsyncResult asyncResult)
+   en System.Web.Mvc.Controller.<BeginExecute>b__15(IAsyncResult asyncResult, Controller controller)
+   en System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   en System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   en System.Web.Mvc.Controller.EndExecute(IAsyncResult asyncResult)
+   en System.Web.Mvc.Controller.System.Web.Mvc.Async.IAsyncController.EndExecute(IAsyncResult asyncResult)
+   en System.Web.Mvc.MvcHandler.<BeginProcessRequest>b__5(IAsyncResult asyncResult, ProcessRequestState innerState)
+   en System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   en System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   en System.Web.Mvc.MvcHandler.EndProcessRequest(IAsyncResult asyncResult)
+   en System.Web.Mvc.MvcHandler.System.Web.IHttpAsyncHandler.EndProcessRequest(IAsyncResult result)
+   en System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   en System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+ 2015-12-08 00:05:17,397 [P5080/D3/T11] ERROR Umbraco.Core.UmbracoApplicationBase - An unhandled exception occurred
+System.Web.HttpCompileException (0x80004005): c:\Users\HernanMartin\Desktop\BlogHernanDemczuk\BlogHernanDemczuk\BlogHernanDemczuk\Views\BlogPost.cshtml(12): error CS1579: foreach statement cannot operate on variables of type 'object' because 'object' does not contain a public definition for 'GetEnumerator'
+   en System.Web.Compilation.AssemblyBuilder.Compile()
+   en System.Web.Compilation.BuildProvidersCompiler.PerformBuild()
+   en System.Web.Compilation.BuildManager.CompileWebFile(VirtualPath virtualPath)
+   en System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   en System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   en System.Web.Compilation.BuildManager.GetVirtualPathObjectFactory(VirtualPath virtualPath, HttpContext context, Boolean allowCrossApp, Boolean throwIfNotFound)
+   en System.Web.Compilation.BuildManager.GetCompiledType(VirtualPath virtualPath)
+   en System.Web.Compilation.BuildManager.GetCompiledType(String virtualPath)
+   en System.Web.Mvc.BuildManagerWrapper.System.Web.Mvc.IBuildManager.GetCompiledType(String virtualPath)
+   en System.Web.Mvc.BuildManagerCompiledView.Render(ViewContext viewContext, TextWriter writer)
+   en Umbraco.Core.Profiling.ProfilingView.Render(ViewContext viewContext, TextWriter writer)
+   en System.Web.Mvc.ViewResultBase.ExecuteResult(ControllerContext context)
+   en System.Web.Mvc.ControllerActionInvoker.InvokeActionResult(ControllerContext controllerContext, ActionResult actionResult)
+   en System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   en System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   en System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   en System.Web.Mvc.ControllerActionInvoker.InvokeActionResultWithFilters(ControllerContext controllerContext, IList`1 filters, ActionResult actionResult)
+   en System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<>c__DisplayClass2b.<BeginInvokeAction>b__1c()
+   en System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<BeginInvokeAction>b__1e(IAsyncResult asyncResult)
+   en System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.CallEndDelegate(IAsyncResult asyncResult)
+   en System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   en System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeAction(IAsyncResult asyncResult)
+   en System.Web.Mvc.Controller.<BeginExecuteCore>b__1d(IAsyncResult asyncResult, ExecuteCoreState innerState)
+   en System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   en System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   en System.Web.Mvc.Controller.EndExecuteCore(IAsyncResult asyncResult)
+   en System.Web.Mvc.Controller.<BeginExecute>b__15(IAsyncResult asyncResult, Controller controller)
+   en System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   en System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   en System.Web.Mvc.Controller.EndExecute(IAsyncResult asyncResult)
+   en System.Web.Mvc.Controller.System.Web.Mvc.Async.IAsyncController.EndExecute(IAsyncResult asyncResult)
+   en System.Web.Mvc.MvcHandler.<BeginProcessRequest>b__5(IAsyncResult asyncResult, ProcessRequestState innerState)
+   en System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   en System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   en System.Web.Mvc.MvcHandler.EndProcessRequest(IAsyncResult asyncResult)
+   en System.Web.Mvc.MvcHandler.System.Web.IHttpAsyncHandler.EndProcessRequest(IAsyncResult result)
+   en System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   en System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+ 2015-12-08 00:06:13,063 [P5080/D3/T14] ERROR Umbraco.Core.UmbracoApplicationBase - An unhandled exception occurred
+System.Web.HttpCompileException (0x80004005): c:\Users\HernanMartin\Desktop\BlogHernanDemczuk\BlogHernanDemczuk\BlogHernanDemczuk\Views\BlogPost.cshtml(12): error CS0103: The name 'post' does not exist in the current context
+   en System.Web.Compilation.AssemblyBuilder.Compile()
+   en System.Web.Compilation.BuildProvidersCompiler.PerformBuild()
+   en System.Web.Compilation.BuildManager.CompileWebFile(VirtualPath virtualPath)
+   en System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   en System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   en System.Web.Compilation.BuildManager.GetVirtualPathObjectFactory(VirtualPath virtualPath, HttpContext context, Boolean allowCrossApp, Boolean throwIfNotFound)
+   en System.Web.Compilation.BuildManager.GetCompiledType(VirtualPath virtualPath)
+   en System.Web.Compilation.BuildManager.GetCompiledType(String virtualPath)
+   en System.Web.Mvc.BuildManagerWrapper.System.Web.Mvc.IBuildManager.GetCompiledType(String virtualPath)
+   en System.Web.Mvc.BuildManagerCompiledView.Render(ViewContext viewContext, TextWriter writer)
+   en Umbraco.Core.Profiling.ProfilingView.Render(ViewContext viewContext, TextWriter writer)
+   en System.Web.Mvc.ViewResultBase.ExecuteResult(ControllerContext context)
+   en System.Web.Mvc.ControllerActionInvoker.InvokeActionResult(ControllerContext controllerContext, ActionResult actionResult)
+   en System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   en System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   en System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   en System.Web.Mvc.ControllerActionInvoker.InvokeActionResultWithFilters(ControllerContext controllerContext, IList`1 filters, ActionResult actionResult)
+   en System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<>c__DisplayClass2b.<BeginInvokeAction>b__1c()
+   en System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<BeginInvokeAction>b__1e(IAsyncResult asyncResult)
+   en System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.CallEndDelegate(IAsyncResult asyncResult)
+   en System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   en System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeAction(IAsyncResult asyncResult)
+   en System.Web.Mvc.Controller.<BeginExecuteCore>b__1d(IAsyncResult asyncResult, ExecuteCoreState innerState)
+   en System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   en System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   en System.Web.Mvc.Controller.EndExecuteCore(IAsyncResult asyncResult)
+   en System.Web.Mvc.Controller.<BeginExecute>b__15(IAsyncResult asyncResult, Controller controller)
+   en System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   en System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   en System.Web.Mvc.Controller.EndExecute(IAsyncResult asyncResult)
+   en System.Web.Mvc.Controller.System.Web.Mvc.Async.IAsyncController.EndExecute(IAsyncResult asyncResult)
+   en System.Web.Mvc.MvcHandler.<BeginProcessRequest>b__5(IAsyncResult asyncResult, ProcessRequestState innerState)
+   en System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   en System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   en System.Web.Mvc.MvcHandler.EndProcessRequest(IAsyncResult asyncResult)
+   en System.Web.Mvc.MvcHandler.System.Web.IHttpAsyncHandler.EndProcessRequest(IAsyncResult result)
+   en System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   en System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+ 2015-12-08 00:07:24,754 [P5080/D3/T14] ERROR Umbraco.Core.UmbracoApplicationBase - An unhandled exception occurred
+System.Web.HttpCompileException (0x80004005): c:\Users\HernanMartin\Desktop\BlogHernanDemczuk\BlogHernanDemczuk\BlogHernanDemczuk\Views\BlogPost.cshtml(12): error CS1502: The best overloaded method match for 'Umbraco.Core.Services.ITagService.GetTagsForProperty(int, string, string)' has some invalid arguments
+   en System.Web.Compilation.AssemblyBuilder.Compile()
+   en System.Web.Compilation.BuildProvidersCompiler.PerformBuild()
+   en System.Web.Compilation.BuildManager.CompileWebFile(VirtualPath virtualPath)
+   en System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   en System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   en System.Web.Compilation.BuildManager.GetVirtualPathObjectFactory(VirtualPath virtualPath, HttpContext context, Boolean allowCrossApp, Boolean throwIfNotFound)
+   en System.Web.Compilation.BuildManager.GetCompiledType(VirtualPath virtualPath)
+   en System.Web.Compilation.BuildManager.GetCompiledType(String virtualPath)
+   en System.Web.Mvc.BuildManagerWrapper.System.Web.Mvc.IBuildManager.GetCompiledType(String virtualPath)
+   en System.Web.Mvc.BuildManagerCompiledView.Render(ViewContext viewContext, TextWriter writer)
+   en Umbraco.Core.Profiling.ProfilingView.Render(ViewContext viewContext, TextWriter writer)
+   en System.Web.Mvc.ViewResultBase.ExecuteResult(ControllerContext context)
+   en System.Web.Mvc.ControllerActionInvoker.InvokeActionResult(ControllerContext controllerContext, ActionResult actionResult)
+   en System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   en System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   en System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   en System.Web.Mvc.ControllerActionInvoker.InvokeActionResultWithFilters(ControllerContext controllerContext, IList`1 filters, ActionResult actionResult)
+   en System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<>c__DisplayClass2b.<BeginInvokeAction>b__1c()
+   en System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<BeginInvokeAction>b__1e(IAsyncResult asyncResult)
+   en System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.CallEndDelegate(IAsyncResult asyncResult)
+   en System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   en System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeAction(IAsyncResult asyncResult)
+   en System.Web.Mvc.Controller.<BeginExecuteCore>b__1d(IAsyncResult asyncResult, ExecuteCoreState innerState)
+   en System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   en System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   en System.Web.Mvc.Controller.EndExecuteCore(IAsyncResult asyncResult)
+   en System.Web.Mvc.Controller.<BeginExecute>b__15(IAsyncResult asyncResult, Controller controller)
+   en System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   en System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   en System.Web.Mvc.Controller.EndExecute(IAsyncResult asyncResult)
+   en System.Web.Mvc.Controller.System.Web.Mvc.Async.IAsyncController.EndExecute(IAsyncResult asyncResult)
+   en System.Web.Mvc.MvcHandler.<BeginProcessRequest>b__5(IAsyncResult asyncResult, ProcessRequestState innerState)
+   en System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   en System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   en System.Web.Mvc.MvcHandler.EndProcessRequest(IAsyncResult asyncResult)
+   en System.Web.Mvc.MvcHandler.System.Web.IHttpAsyncHandler.EndProcessRequest(IAsyncResult result)
+   en System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   en System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+ 2015-12-08 00:09:53,890 [P5080/D3/T65] ERROR Umbraco.Core.UmbracoApplicationBase - An unhandled exception occurred
+System.Web.HttpCompileException (0x80004005): c:\Users\HernanMartin\Desktop\BlogHernanDemczuk\BlogHernanDemczuk\BlogHernanDemczuk\Views\BlogPost.cshtml(4): error CS1061: 'Umbraco.Web.Models.RenderModel' does not contain a definition for 'tags' and no extension method 'tags' accepting a first argument of type 'Umbraco.Web.Models.RenderModel' could be found (are you missing a using directive or an assembly reference?)
+   en System.Web.Compilation.AssemblyBuilder.Compile()
+   en System.Web.Compilation.BuildProvidersCompiler.PerformBuild()
+   en System.Web.Compilation.BuildManager.CompileWebFile(VirtualPath virtualPath)
+   en System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   en System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   en System.Web.Compilation.BuildManager.GetVirtualPathObjectFactory(VirtualPath virtualPath, HttpContext context, Boolean allowCrossApp, Boolean throwIfNotFound)
+   en System.Web.Compilation.BuildManager.GetCompiledType(VirtualPath virtualPath)
+   en System.Web.Compilation.BuildManager.GetCompiledType(String virtualPath)
+   en System.Web.Mvc.BuildManagerWrapper.System.Web.Mvc.IBuildManager.GetCompiledType(String virtualPath)
+   en System.Web.Mvc.BuildManagerCompiledView.Render(ViewContext viewContext, TextWriter writer)
+   en Umbraco.Core.Profiling.ProfilingView.Render(ViewContext viewContext, TextWriter writer)
+   en System.Web.Mvc.ViewResultBase.ExecuteResult(ControllerContext context)
+   en System.Web.Mvc.ControllerActionInvoker.InvokeActionResult(ControllerContext controllerContext, ActionResult actionResult)
+   en System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   en System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   en System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   en System.Web.Mvc.ControllerActionInvoker.InvokeActionResultWithFilters(ControllerContext controllerContext, IList`1 filters, ActionResult actionResult)
+   en System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<>c__DisplayClass2b.<BeginInvokeAction>b__1c()
+   en System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<BeginInvokeAction>b__1e(IAsyncResult asyncResult)
+   en System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.CallEndDelegate(IAsyncResult asyncResult)
+   en System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   en System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeAction(IAsyncResult asyncResult)
+   en System.Web.Mvc.Controller.<BeginExecuteCore>b__1d(IAsyncResult asyncResult, ExecuteCoreState innerState)
+   en System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   en System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   en System.Web.Mvc.Controller.EndExecuteCore(IAsyncResult asyncResult)
+   en System.Web.Mvc.Controller.<BeginExecute>b__15(IAsyncResult asyncResult, Controller controller)
+   en System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   en System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   en System.Web.Mvc.Controller.EndExecute(IAsyncResult asyncResult)
+   en System.Web.Mvc.Controller.System.Web.Mvc.Async.IAsyncController.EndExecute(IAsyncResult asyncResult)
+   en System.Web.Mvc.MvcHandler.<BeginProcessRequest>b__5(IAsyncResult asyncResult, ProcessRequestState innerState)
+   en System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   en System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   en System.Web.Mvc.MvcHandler.EndProcessRequest(IAsyncResult asyncResult)
+   en System.Web.Mvc.MvcHandler.System.Web.IHttpAsyncHandler.EndProcessRequest(IAsyncResult result)
+   en System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   en System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+ 2015-12-08 00:29:52,189 [P5080/D3/T53] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [LogScrubber] Terminating
+ 2015-12-08 00:29:52,189 [P5080/D3/T53] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [LogScrubber] Waiting for tasks to complete
+ 2015-12-08 00:29:52,236 [P5080/D3/T19] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [LogScrubber] Tasks completed, terminated
+ 2015-12-08 00:29:52,413 [P5080/D3/T53] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledPublishing] Terminating
+ 2015-12-08 00:29:52,413 [P5080/D3/T53] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledPublishing] Waiting for tasks to complete
+ 2015-12-08 00:29:52,414 [P5080/D3/T57] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledPublishing] Tasks completed, terminated
+ 2015-12-08 00:29:52,465 [P5080/D3/T53] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [KeepAlive] Terminating
+ 2015-12-08 00:29:52,466 [P5080/D3/T53] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [KeepAlive] Waiting for tasks to complete
+ 2015-12-08 00:29:52,466 [P5080/D3/T53] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledTasks] Terminating
+ 2015-12-08 00:29:52,466 [P5080/D3/T53] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledTasks] Waiting for tasks to complete
+ 2015-12-08 00:29:52,466 [P5080/D3/T43] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [KeepAlive] Tasks completed, terminated
+ 2015-12-08 00:29:52,467 [P5080/D3/T64] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledTasks] Tasks completed, terminated
+ 2015-12-08 00:30:15,822 [P5080/D4/T38] INFO  Umbraco.Core.CoreBootManager - Umbraco 7.3.3 application starting on NOTEBOOK-ACER
+ 2015-12-08 00:30:17,679 [P5080/D4/T38] INFO  Umbraco.Core.PluginManager - Determining hash of code files on disk
+ 2015-12-08 00:30:17,703 [P5080/D4/T38] INFO  Umbraco.Core.PluginManager - Hash determined (took 25ms)
+ 2015-12-08 00:30:18,475 [P5080/D4/T38] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.IApplicationStartupHandler
+ 2015-12-08 00:30:19,459 [P5080/D4/T38] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.IApplicationStartupHandler, found 0 (took 984ms)
+ 2015-12-08 00:30:20,007 [P5080/D4/T38] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter
+ 2015-12-08 00:30:20,016 [P5080/D4/T38] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter, found 0 (took 8ms)
+ 2015-12-08 00:30:20,016 [P5080/D4/T38] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyValueConverter
+ 2015-12-08 00:30:20,019 [P5080/D4/T38] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyValueConverter, found 0 (took 2ms)
+ 2015-12-08 00:30:20,078 [P5080/D4/T38] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.Mvc.SurfaceController
+ 2015-12-08 00:30:20,080 [P5080/D4/T38] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.Mvc.SurfaceController, found 0 (took 1ms)
+ 2015-12-08 00:30:20,080 [P5080/D4/T38] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.WebApi.UmbracoApiController
+ 2015-12-08 00:30:20,085 [P5080/D4/T38] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.WebApi.UmbracoApiController, found 0 (took 5ms)
+ 2015-12-08 00:30:20,928 [P5080/D4/T38] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.Media.IThumbnailProvider
+ 2015-12-08 00:30:20,930 [P5080/D4/T38] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.Media.IThumbnailProvider, found 0 (took 1ms)
+ 2015-12-08 00:30:20,930 [P5080/D4/T38] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.Media.IImageUrlProvider
+ 2015-12-08 00:30:20,932 [P5080/D4/T38] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.Media.IImageUrlProvider, found 0 (took 1ms)
+ 2015-12-08 00:30:22,988 [P5080/D3/T43] INFO  Umbraco.Core.UmbracoApplicationBase - Application shutdown. Details: MaxRecompilationsReached
+
+_shutDownMessage=Recompilation limit of 15 reached
+HostingEnvironment initiated shutdown
+HostingEnvironment originó el cierre
+
+_shutDownStack=   en System.Environment.GetStackTrace(Exception e, Boolean needFileInfo)
+   en System.Environment.get_StackTrace()
+   en System.Web.Hosting.HostingEnvironment.InitiateShutdownInternal()
+   en System.Web.Hosting.HostingEnvironment.InitiateShutdownWithoutDemand()
+   en System.Web.HttpRuntime.ShutdownAppDomain(String stackTrace)
+   en System.Web.Compilation.DiskBuildResultCache.ShutdownCallBack(Object state)
+   en System.Threading.QueueUserWorkItemCallback.WaitCallback_Context(Object state)
+   en System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   en System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   en System.Threading.QueueUserWorkItemCallback.System.Threading.IThreadPoolWorkItem.ExecuteWorkItem()
+   en System.Threading.ThreadPoolWorkQueue.Dispatch()
+   en System.Threading._ThreadPoolWaitCallback.PerformWaitCallback()
+ 2015-12-08 00:30:31,021 [P5080/D4/T38] INFO  Umbraco.Core.DatabaseContext - CanConnect = True
+ 2015-12-08 00:30:35,968 [P5080/D4/T38] INFO  Umbraco.Core.DatabaseContext - CanConnect = True
+ 2015-12-08 00:30:36,087 [P5080/D4/T38] INFO  Umbraco.Core.DatabaseContext - CanConnect = True
+ 2015-12-08 00:30:37,466 [P5080/D4/T38] INFO  Umbraco.Web.Cache.CacheRefresherEventHandler - Initializing Umbraco internal event handlers for cache refreshing
+ 2015-12-08 00:30:37,825 [P5080/D4/T38] INFO  Umbraco.Web.Search.ExamineEvents - Initializing Examine and binding to business logic events
+ 2015-12-08 00:30:38,112 [P5080/D4/T38] INFO  Umbraco.Web.Search.ExamineEvents - Adding examine event handlers for index providers: 3
+ 2015-12-08 00:30:38,201 [P5080/D4/T38] INFO  Umbraco.Core.CoreBootManager - Umbraco application startup complete (took 22640ms)
+ 2015-12-08 00:30:46,740 [P5080/D4/T43] INFO  Umbraco.Core.Sync.ApplicationUrlHelper - ApplicationUrl: http://localhost:54276/umbraco (UmbracoModule request)
+ 2015-12-08 00:30:46,740 [P5080/D4/T64] INFO  Umbraco.Core.Sync.ApplicationUrlHelper - ApplicationUrl: http://localhost:54276/umbraco (UmbracoModule request)
+ 2015-12-08 00:30:46,741 [P5080/D4/T28] INFO  Umbraco.Core.Sync.ApplicationUrlHelper - ApplicationUrl: http://localhost:54276/umbraco (UmbracoModule request)
+ 2015-12-08 00:30:47,736 [P5080/D4/T64] INFO  umbraco.content - Load Xml from file...
+ 2015-12-08 00:30:47,842 [P5080/D4/T64] INFO  umbraco.content - Loaded Xml from file.
+ 2015-12-08 00:30:48,149 [P5080/D4/T64] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.ICacheRefresher
+ 2015-12-08 00:30:48,151 [P5080/D4/T64] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.ICacheRefresher, found 0 (took 1ms)
+ 2015-12-08 00:30:48,630 [P5080/D4/T43] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.Persistence.Mappers.BaseMapper
+ 2015-12-08 00:30:48,632 [P5080/D4/T43] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.Persistence.Mappers.BaseMapper, found 0 (took 2ms)
+ 2015-12-08 00:30:51,569 [P5080/D4/T64] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.PropertyEditors.IParameterEditor
+ 2015-12-08 00:30:51,571 [P5080/D4/T64] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.PropertyEditors.IParameterEditor, found 0 (took 2ms)
+ 2015-12-08 00:30:55,079 [P5080/D4/T64] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.PropertyEditors.IParameterEditor
+ 2015-12-08 00:30:55,079 [P5080/D4/T64] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.PropertyEditors.IParameterEditor, found 0 (took 0ms)
+ 2015-12-08 00:30:55,125 [P5080/D4/T64] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.cms.businesslogic.macro.IMacroEngine
+ 2015-12-08 00:30:55,127 [P5080/D4/T64] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.cms.businesslogic.macro.IMacroEngine, found 0 (took 2ms)
+ 2015-12-08 00:31:56,183 [P5080/D4/T66] INFO  umbraco.BusinessLogic.Log - Log scrubbed.  Removed all items older than 2015-12-07 00:31:55
+ 2015-12-08 01:14:13,144 [P5080/D4/T22] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.Trees.TreeController
+ 2015-12-08 01:14:13,151 [P5080/D4/T22] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.Trees.TreeController, found 0 (took 7ms)
+ 2015-12-08 01:14:13,156 [P5080/D4/T22] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.ITree
+ 2015-12-08 01:14:13,159 [P5080/D4/T22] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.ITree, found 0 (took 2ms)
+ 2015-12-08 01:16:07,922 [P5080/D4/T60] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.Trees.TreeController
+ 2015-12-08 01:16:07,923 [P5080/D4/T60] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.Trees.TreeController, found 0 (took 0ms)
+ 2015-12-08 01:16:08,063 [P5080/D4/T67] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.ITree
+ 2015-12-08 01:16:08,065 [P5080/D4/T67] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.ITree, found 0 (took 1ms)
+ 2015-12-08 01:16:08,130 [P5080/D4/T67] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.IApplication
+ 2015-12-08 01:16:08,132 [P5080/D4/T67] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.IApplication, found 0 (took 2ms)
+ 2015-12-08 01:55:00,250 [P5080/D4/T9] ERROR Umbraco.Core.UmbracoApplicationBase - An unhandled exception occurred
+System.Web.HttpCompileException (0x80004005): c:\Users\HernanMartin\Desktop\BlogHernanDemczuk\BlogHernanDemczuk\BlogHernanDemczuk\Views\BlogPost.cshtml(25): error CS1061: 'Umbraco.Web.Models.RenderModel' does not contain a definition for 'MediaById' and no extension method 'MediaById' accepting a first argument of type 'Umbraco.Web.Models.RenderModel' could be found (are you missing a using directive or an assembly reference?)
+   en System.Web.Compilation.AssemblyBuilder.Compile()
+   en System.Web.Compilation.BuildProvidersCompiler.PerformBuild()
+   en System.Web.Compilation.BuildManager.CompileWebFile(VirtualPath virtualPath)
+   en System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   en System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   en System.Web.Compilation.BuildManager.GetVirtualPathObjectFactory(VirtualPath virtualPath, HttpContext context, Boolean allowCrossApp, Boolean throwIfNotFound)
+   en System.Web.Compilation.BuildManager.GetCompiledType(VirtualPath virtualPath)
+   en System.Web.Compilation.BuildManager.GetCompiledType(String virtualPath)
+   en System.Web.Mvc.BuildManagerWrapper.System.Web.Mvc.IBuildManager.GetCompiledType(String virtualPath)
+   en System.Web.Mvc.BuildManagerCompiledView.Render(ViewContext viewContext, TextWriter writer)
+   en Umbraco.Core.Profiling.ProfilingView.Render(ViewContext viewContext, TextWriter writer)
+   en System.Web.Mvc.ViewResultBase.ExecuteResult(ControllerContext context)
+   en System.Web.Mvc.ControllerActionInvoker.InvokeActionResult(ControllerContext controllerContext, ActionResult actionResult)
+   en System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   en System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   en System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   en System.Web.Mvc.ControllerActionInvoker.InvokeActionResultWithFilters(ControllerContext controllerContext, IList`1 filters, ActionResult actionResult)
+   en System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<>c__DisplayClass2b.<BeginInvokeAction>b__1c()
+   en System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<BeginInvokeAction>b__1e(IAsyncResult asyncResult)
+   en System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.CallEndDelegate(IAsyncResult asyncResult)
+   en System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   en System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeAction(IAsyncResult asyncResult)
+   en System.Web.Mvc.Controller.<BeginExecuteCore>b__1d(IAsyncResult asyncResult, ExecuteCoreState innerState)
+   en System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   en System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   en System.Web.Mvc.Controller.EndExecuteCore(IAsyncResult asyncResult)
+   en System.Web.Mvc.Controller.<BeginExecute>b__15(IAsyncResult asyncResult, Controller controller)
+   en System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   en System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   en System.Web.Mvc.Controller.EndExecute(IAsyncResult asyncResult)
+   en System.Web.Mvc.Controller.System.Web.Mvc.Async.IAsyncController.EndExecute(IAsyncResult asyncResult)
+   en System.Web.Mvc.MvcHandler.<BeginProcessRequest>b__5(IAsyncResult asyncResult, ProcessRequestState innerState)
+   en System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   en System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   en System.Web.Mvc.MvcHandler.EndProcessRequest(IAsyncResult asyncResult)
+   en System.Web.Mvc.MvcHandler.System.Web.IHttpAsyncHandler.EndProcessRequest(IAsyncResult result)
+   en System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   en System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+ 2015-12-08 02:03:32,532 [P5080/D4/T54] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2015-12-08 02:04:48,695 [P5080/D4/T11] ERROR Umbraco.Core.UmbracoApplicationBase - An unhandled exception occurred
+System.Web.HttpCompileException (0x80004005): c:\Users\HernanMartin\Desktop\BlogHernanDemczuk\BlogHernanDemczuk\BlogHernanDemczuk\Views\BlogPost.cshtml(25): error CS0103: The name 'post' does not exist in the current context
+   en System.Web.Compilation.AssemblyBuilder.Compile()
+   en System.Web.Compilation.BuildProvidersCompiler.PerformBuild()
+   en System.Web.Compilation.BuildManager.CompileWebFile(VirtualPath virtualPath)
+   en System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   en System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   en System.Web.Compilation.BuildManager.GetVirtualPathObjectFactory(VirtualPath virtualPath, HttpContext context, Boolean allowCrossApp, Boolean throwIfNotFound)
+   en System.Web.Compilation.BuildManager.GetCompiledType(VirtualPath virtualPath)
+   en System.Web.Compilation.BuildManager.GetCompiledType(String virtualPath)
+   en System.Web.Mvc.BuildManagerWrapper.System.Web.Mvc.IBuildManager.GetCompiledType(String virtualPath)
+   en System.Web.Mvc.BuildManagerCompiledView.Render(ViewContext viewContext, TextWriter writer)
+   en Umbraco.Core.Profiling.ProfilingView.Render(ViewContext viewContext, TextWriter writer)
+   en System.Web.Mvc.ViewResultBase.ExecuteResult(ControllerContext context)
+   en System.Web.Mvc.ControllerActionInvoker.InvokeActionResult(ControllerContext controllerContext, ActionResult actionResult)
+   en System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   en System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   en System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   en System.Web.Mvc.ControllerActionInvoker.InvokeActionResultWithFilters(ControllerContext controllerContext, IList`1 filters, ActionResult actionResult)
+   en System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<>c__DisplayClass2b.<BeginInvokeAction>b__1c()
+   en System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<BeginInvokeAction>b__1e(IAsyncResult asyncResult)
+   en System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.CallEndDelegate(IAsyncResult asyncResult)
+   en System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   en System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeAction(IAsyncResult asyncResult)
+   en System.Web.Mvc.Controller.<BeginExecuteCore>b__1d(IAsyncResult asyncResult, ExecuteCoreState innerState)
+   en System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   en System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   en System.Web.Mvc.Controller.EndExecuteCore(IAsyncResult asyncResult)
+   en System.Web.Mvc.Controller.<BeginExecute>b__15(IAsyncResult asyncResult, Controller controller)
+   en System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   en System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   en System.Web.Mvc.Controller.EndExecute(IAsyncResult asyncResult)
+   en System.Web.Mvc.Controller.System.Web.Mvc.Async.IAsyncController.EndExecute(IAsyncResult asyncResult)
+   en System.Web.Mvc.MvcHandler.<BeginProcessRequest>b__5(IAsyncResult asyncResult, ProcessRequestState innerState)
+   en System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   en System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   en System.Web.Mvc.MvcHandler.EndProcessRequest(IAsyncResult asyncResult)
+   en System.Web.Mvc.MvcHandler.System.Web.IHttpAsyncHandler.EndProcessRequest(IAsyncResult result)
+   en System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   en System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+ 2015-12-08 02:06:21,802 [P5080/D4/T11] ERROR Umbraco.Core.UmbracoApplicationBase - An unhandled exception occurred
+System.Web.HttpCompileException (0x80004005): c:\Users\HernanMartin\Desktop\BlogHernanDemczuk\BlogHernanDemczuk\BlogHernanDemczuk\Views\BlogPost.cshtml(25): error CS0118: 'Umbraco.Web.UmbracoHelper' is a 'type' but is used like a 'variable'
+   en System.Web.Compilation.AssemblyBuilder.Compile()
+   en System.Web.Compilation.BuildProvidersCompiler.PerformBuild()
+   en System.Web.Compilation.BuildManager.CompileWebFile(VirtualPath virtualPath)
+   en System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   en System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   en System.Web.Compilation.BuildManager.GetVirtualPathObjectFactory(VirtualPath virtualPath, HttpContext context, Boolean allowCrossApp, Boolean throwIfNotFound)
+   en System.Web.Compilation.BuildManager.GetCompiledType(VirtualPath virtualPath)
+   en System.Web.Compilation.BuildManager.GetCompiledType(String virtualPath)
+   en System.Web.Mvc.BuildManagerWrapper.System.Web.Mvc.IBuildManager.GetCompiledType(String virtualPath)
+   en System.Web.Mvc.BuildManagerCompiledView.Render(ViewContext viewContext, TextWriter writer)
+   en Umbraco.Core.Profiling.ProfilingView.Render(ViewContext viewContext, TextWriter writer)
+   en System.Web.Mvc.ViewResultBase.ExecuteResult(ControllerContext context)
+   en System.Web.Mvc.ControllerActionInvoker.InvokeActionResult(ControllerContext controllerContext, ActionResult actionResult)
+   en System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   en System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   en System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   en System.Web.Mvc.ControllerActionInvoker.InvokeActionResultWithFilters(ControllerContext controllerContext, IList`1 filters, ActionResult actionResult)
+   en System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<>c__DisplayClass2b.<BeginInvokeAction>b__1c()
+   en System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<BeginInvokeAction>b__1e(IAsyncResult asyncResult)
+   en System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.CallEndDelegate(IAsyncResult asyncResult)
+   en System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   en System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeAction(IAsyncResult asyncResult)
+   en System.Web.Mvc.Controller.<BeginExecuteCore>b__1d(IAsyncResult asyncResult, ExecuteCoreState innerState)
+   en System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   en System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   en System.Web.Mvc.Controller.EndExecuteCore(IAsyncResult asyncResult)
+   en System.Web.Mvc.Controller.<BeginExecute>b__15(IAsyncResult asyncResult, Controller controller)
+   en System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   en System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   en System.Web.Mvc.Controller.EndExecute(IAsyncResult asyncResult)
+   en System.Web.Mvc.Controller.System.Web.Mvc.Async.IAsyncController.EndExecute(IAsyncResult asyncResult)
+   en System.Web.Mvc.MvcHandler.<BeginProcessRequest>b__5(IAsyncResult asyncResult, ProcessRequestState innerState)
+   en System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   en System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   en System.Web.Mvc.MvcHandler.EndProcessRequest(IAsyncResult asyncResult)
+   en System.Web.Mvc.MvcHandler.System.Web.IHttpAsyncHandler.EndProcessRequest(IAsyncResult result)
+   en System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   en System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+ 2015-12-08 02:06:47,471 [P5080/D4/T11] ERROR Umbraco.Core.UmbracoApplicationBase - An unhandled exception occurred
+System.Web.HttpCompileException (0x80004005): c:\Users\HernanMartin\Desktop\BlogHernanDemczuk\BlogHernanDemczuk\BlogHernanDemczuk\Views\BlogPost.cshtml(25): error CS0118: 'Umbraco.Web.UmbracoHelper' is a 'type' but is used like a 'variable'
+   en System.Web.Compilation.AssemblyBuilder.Compile()
+   en System.Web.Compilation.BuildProvidersCompiler.PerformBuild()
+   en System.Web.Compilation.BuildManager.CompileWebFile(VirtualPath virtualPath)
+   en System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   en System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   en System.Web.Compilation.BuildManager.GetVirtualPathObjectFactory(VirtualPath virtualPath, HttpContext context, Boolean allowCrossApp, Boolean throwIfNotFound)
+   en System.Web.Compilation.BuildManager.GetCompiledType(VirtualPath virtualPath)
+   en System.Web.Compilation.BuildManager.GetCompiledType(String virtualPath)
+   en System.Web.Mvc.BuildManagerWrapper.System.Web.Mvc.IBuildManager.GetCompiledType(String virtualPath)
+   en System.Web.Mvc.BuildManagerCompiledView.Render(ViewContext viewContext, TextWriter writer)
+   en Umbraco.Core.Profiling.ProfilingView.Render(ViewContext viewContext, TextWriter writer)
+   en System.Web.Mvc.ViewResultBase.ExecuteResult(ControllerContext context)
+   en System.Web.Mvc.ControllerActionInvoker.InvokeActionResult(ControllerContext controllerContext, ActionResult actionResult)
+   en System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   en System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   en System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   en System.Web.Mvc.ControllerActionInvoker.InvokeActionResultWithFilters(ControllerContext controllerContext, IList`1 filters, ActionResult actionResult)
+   en System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<>c__DisplayClass2b.<BeginInvokeAction>b__1c()
+   en System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<BeginInvokeAction>b__1e(IAsyncResult asyncResult)
+   en System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.CallEndDelegate(IAsyncResult asyncResult)
+   en System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   en System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeAction(IAsyncResult asyncResult)
+   en System.Web.Mvc.Controller.<BeginExecuteCore>b__1d(IAsyncResult asyncResult, ExecuteCoreState innerState)
+   en System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   en System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   en System.Web.Mvc.Controller.EndExecuteCore(IAsyncResult asyncResult)
+   en System.Web.Mvc.Controller.<BeginExecute>b__15(IAsyncResult asyncResult, Controller controller)
+   en System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   en System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   en System.Web.Mvc.Controller.EndExecute(IAsyncResult asyncResult)
+   en System.Web.Mvc.Controller.System.Web.Mvc.Async.IAsyncController.EndExecute(IAsyncResult asyncResult)
+   en System.Web.Mvc.MvcHandler.<BeginProcessRequest>b__5(IAsyncResult asyncResult, ProcessRequestState innerState)
+   en System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   en System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   en System.Web.Mvc.MvcHandler.EndProcessRequest(IAsyncResult asyncResult)
+   en System.Web.Mvc.MvcHandler.System.Web.IHttpAsyncHandler.EndProcessRequest(IAsyncResult result)
+   en System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   en System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+ 2015-12-08 02:29:54,287 [P5080/D4/T65] ERROR Umbraco.Core.UmbracoApplicationBase - An unhandled exception occurred
+System.InvalidOperationException: The value of parameter 'id' must be either a string or an integer
+   en Umbraco.Web.UmbracoHelper.ConvertIdObjectToInt(Object id, Int32& intId)
+   en Umbraco.Web.UmbracoHelper.Media(Object id)
+   en ASP._Page_Views_BlogPost_cshtml.Execute() en c:\Users\HernanMartin\Desktop\BlogHernanDemczuk\BlogHernanDemczuk\BlogHernanDemczuk\Views\BlogPost.cshtml:línea 13
+   en System.Web.WebPages.WebPageBase.ExecutePageHierarchy()
+   en System.Web.Mvc.WebViewPage.ExecutePageHierarchy()
+   en System.Web.WebPages.WebPageBase.ExecutePageHierarchy(WebPageContext pageContext, TextWriter writer, WebPageRenderingBase startPage)
+   en System.Web.Mvc.RazorView.RenderView(ViewContext viewContext, TextWriter writer, Object instance)
+   en System.Web.Mvc.BuildManagerCompiledView.Render(ViewContext viewContext, TextWriter writer)
+   en Umbraco.Core.Profiling.ProfilingView.Render(ViewContext viewContext, TextWriter writer)
+   en System.Web.Mvc.ViewResultBase.ExecuteResult(ControllerContext context)
+   en System.Web.Mvc.ControllerActionInvoker.InvokeActionResult(ControllerContext controllerContext, ActionResult actionResult)
+   en System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   en System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   en System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   en System.Web.Mvc.ControllerActionInvoker.InvokeActionResultWithFilters(ControllerContext controllerContext, IList`1 filters, ActionResult actionResult)
+   en System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<>c__DisplayClass2b.<BeginInvokeAction>b__1c()
+   en System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<BeginInvokeAction>b__1e(IAsyncResult asyncResult)
+   en System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.CallEndDelegate(IAsyncResult asyncResult)
+   en System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   en System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeAction(IAsyncResult asyncResult)
+   en System.Web.Mvc.Controller.<BeginExecuteCore>b__1d(IAsyncResult asyncResult, ExecuteCoreState innerState)
+   en System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   en System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   en System.Web.Mvc.Controller.EndExecuteCore(IAsyncResult asyncResult)
+   en System.Web.Mvc.Controller.<BeginExecute>b__15(IAsyncResult asyncResult, Controller controller)
+   en System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   en System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   en System.Web.Mvc.Controller.EndExecute(IAsyncResult asyncResult)
+   en System.Web.Mvc.Controller.System.Web.Mvc.Async.IAsyncController.EndExecute(IAsyncResult asyncResult)
+   en System.Web.Mvc.MvcHandler.<BeginProcessRequest>b__5(IAsyncResult asyncResult, ProcessRequestState innerState)
+   en System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   en System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   en System.Web.Mvc.MvcHandler.EndProcessRequest(IAsyncResult asyncResult)
+   en System.Web.Mvc.MvcHandler.System.Web.IHttpAsyncHandler.EndProcessRequest(IAsyncResult result)
+   en System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   en System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+ 2015-12-08 02:34:28,996 [P5080/D4/T63] ERROR Umbraco.Core.UmbracoApplicationBase - An unhandled exception occurred
+System.InvalidOperationException: The value of parameter 'id' must be either a string or an integer
+   en Umbraco.Web.UmbracoHelper.ConvertIdObjectToInt(Object id, Int32& intId)
+   en Umbraco.Web.UmbracoHelper.Media(Object id)
+   en ASP._Page_Views_BlogPost_cshtml.Execute() en c:\Users\HernanMartin\Desktop\BlogHernanDemczuk\BlogHernanDemczuk\BlogHernanDemczuk\Views\BlogPost.cshtml:línea 13
+   en System.Web.WebPages.WebPageBase.ExecutePageHierarchy()
+   en System.Web.Mvc.WebViewPage.ExecutePageHierarchy()
+   en System.Web.WebPages.WebPageBase.ExecutePageHierarchy(WebPageContext pageContext, TextWriter writer, WebPageRenderingBase startPage)
+   en System.Web.Mvc.RazorView.RenderView(ViewContext viewContext, TextWriter writer, Object instance)
+   en System.Web.Mvc.BuildManagerCompiledView.Render(ViewContext viewContext, TextWriter writer)
+   en Umbraco.Core.Profiling.ProfilingView.Render(ViewContext viewContext, TextWriter writer)
+   en System.Web.Mvc.ViewResultBase.ExecuteResult(ControllerContext context)
+   en System.Web.Mvc.ControllerActionInvoker.InvokeActionResult(ControllerContext controllerContext, ActionResult actionResult)
+   en System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   en System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   en System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   en System.Web.Mvc.ControllerActionInvoker.InvokeActionResultWithFilters(ControllerContext controllerContext, IList`1 filters, ActionResult actionResult)
+   en System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<>c__DisplayClass2b.<BeginInvokeAction>b__1c()
+   en System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<BeginInvokeAction>b__1e(IAsyncResult asyncResult)
+   en System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.CallEndDelegate(IAsyncResult asyncResult)
+   en System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   en System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeAction(IAsyncResult asyncResult)
+   en System.Web.Mvc.Controller.<BeginExecuteCore>b__1d(IAsyncResult asyncResult, ExecuteCoreState innerState)
+   en System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   en System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   en System.Web.Mvc.Controller.EndExecuteCore(IAsyncResult asyncResult)
+   en System.Web.Mvc.Controller.<BeginExecute>b__15(IAsyncResult asyncResult, Controller controller)
+   en System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   en System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   en System.Web.Mvc.Controller.EndExecute(IAsyncResult asyncResult)
+   en System.Web.Mvc.Controller.System.Web.Mvc.Async.IAsyncController.EndExecute(IAsyncResult asyncResult)
+   en System.Web.Mvc.MvcHandler.<BeginProcessRequest>b__5(IAsyncResult asyncResult, ProcessRequestState innerState)
+   en System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   en System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   en System.Web.Mvc.MvcHandler.EndProcessRequest(IAsyncResult asyncResult)
+   en System.Web.Mvc.MvcHandler.System.Web.IHttpAsyncHandler.EndProcessRequest(IAsyncResult result)
+   en System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   en System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+ 2015-12-08 03:44:51,641 [P5080/D4/T43] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field editor
+ 2015-12-08 03:44:51,641 [P5080/D4/T43] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field hideLabel
+ 2015-12-08 03:57:16,049 [P5080/D4/T8] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Sistema de Gestión para un Negocio' with Id '1087' has been published.
+ 2015-12-08 03:57:22,069 [P5080/D4/T52] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Sistema de Gestión para un Negocio' with Id '1087' has been published.
+ 2015-12-08 03:57:26,320 [P5080/D4/T48] INFO  umbraco.content - Save Xml to file...
+ 2015-12-08 03:57:27,261 [P5080/D4/T25] INFO  umbraco.content - Saved Xml to file.
+ 2015-12-08 03:57:38,407 [P5080/D4/T55] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [KeepAlive] Terminating
+ 2015-12-08 03:57:38,412 [P5080/D4/T55] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [KeepAlive] Waiting for tasks to complete
+ 2015-12-08 03:57:38,462 [P5080/D4/T15] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [KeepAlive] Tasks completed, terminated
+ 2015-12-08 03:57:38,935 [P5080/D4/T55] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledTasks] Terminating
+ 2015-12-08 03:57:38,935 [P5080/D4/T55] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledTasks] Waiting for tasks to complete
+ 2015-12-08 03:57:38,937 [P5080/D4/T19] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledTasks] Tasks completed, terminated
+ 2015-12-08 03:57:38,970 [P5080/D4/T55] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledPublishing] Terminating
+ 2015-12-08 03:57:38,970 [P5080/D4/T55] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledPublishing] Waiting for tasks to complete
+ 2015-12-08 03:57:38,970 [P5080/D4/T52] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledPublishing] Tasks completed, terminated
+ 2015-12-08 03:57:39,015 [P5080/D4/T55] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [LogScrubber] Terminating
+ 2015-12-08 03:57:39,015 [P5080/D4/T55] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [LogScrubber] Waiting for tasks to complete
+ 2015-12-08 03:57:39,069 [P5080/D4/T66] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [LogScrubber] Tasks completed, terminated
+ 2015-12-08 03:57:58,763 [P5080/D5/T1] INFO  Umbraco.Core.CoreBootManager - Umbraco 7.3.3 application starting on NOTEBOOK-ACER
+ 2015-12-08 03:57:59,222 [P5080/D5/T1] INFO  Umbraco.Core.PluginManager - Determining hash of code files on disk
+ 2015-12-08 03:57:59,337 [P5080/D5/T1] INFO  Umbraco.Core.PluginManager - Hash determined (took 114ms)
+ 2015-12-08 03:58:00,406 [P5080/D5/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.IApplicationStartupHandler
+ 2015-12-08 03:58:01,209 [P5080/D5/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.IApplicationStartupHandler, found 0 (took 802ms)
+ 2015-12-08 03:58:02,028 [P5080/D5/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter
+ 2015-12-08 03:58:02,029 [P5080/D5/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter, found 0 (took 0ms)
+ 2015-12-08 03:58:02,031 [P5080/D5/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyValueConverter
+ 2015-12-08 03:58:02,037 [P5080/D5/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyValueConverter, found 0 (took 5ms)
+ 2015-12-08 03:58:02,046 [P5080/D5/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.Mvc.SurfaceController
+ 2015-12-08 03:58:02,055 [P5080/D5/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.Mvc.SurfaceController, found 0 (took 9ms)
+ 2015-12-08 03:58:02,055 [P5080/D5/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.WebApi.UmbracoApiController
+ 2015-12-08 03:58:02,068 [P5080/D5/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.WebApi.UmbracoApiController, found 0 (took 12ms)
+ 2015-12-08 03:58:03,226 [P5080/D5/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.Media.IThumbnailProvider
+ 2015-12-08 03:58:03,228 [P5080/D5/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.Media.IThumbnailProvider, found 0 (took 1ms)
+ 2015-12-08 03:58:03,228 [P5080/D5/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.Media.IImageUrlProvider
+ 2015-12-08 03:58:03,229 [P5080/D5/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.Media.IImageUrlProvider, found 0 (took 1ms)
+ 2015-12-08 03:58:06,432 [P5080/D5/T1] INFO  Umbraco.Core.DatabaseContext - CanConnect = True
+ 2015-12-08 03:58:07,816 [P5080/D5/T1] INFO  Umbraco.Core.DatabaseContext - CanConnect = True
+ 2015-12-08 03:58:07,817 [P5080/D5/T1] INFO  Umbraco.Core.DatabaseContext - CanConnect = True
+ 2015-12-08 03:58:08,150 [P5080/D5/T1] INFO  Umbraco.Web.Cache.CacheRefresherEventHandler - Initializing Umbraco internal event handlers for cache refreshing
+ 2015-12-08 03:58:08,605 [P5080/D5/T1] INFO  Umbraco.Web.Search.ExamineEvents - Initializing Examine and binding to business logic events
+ 2015-12-08 03:58:08,817 [P5080/D5/T1] INFO  Umbraco.Web.Search.ExamineEvents - Adding examine event handlers for index providers: 3
+ 2015-12-08 03:58:08,868 [P5080/D5/T1] INFO  Umbraco.Core.CoreBootManager - Umbraco application startup complete (took 10511ms)
+ 2015-12-08 03:58:09,378 [P5080/D4/T63] INFO  Umbraco.Core.UmbracoApplicationBase - Application shutdown. Details: MaxRecompilationsReached
+
+_shutDownMessage=Recompilation limit of 15 reached
+HostingEnvironment initiated shutdown
+HostingEnvironment originó el cierre
+
+_shutDownStack=   en System.Environment.GetStackTrace(Exception e, Boolean needFileInfo)
+   en System.Environment.get_StackTrace()
+   en System.Web.Hosting.HostingEnvironment.InitiateShutdownInternal()
+   en System.Web.Hosting.HostingEnvironment.InitiateShutdownWithoutDemand()
+   en System.Web.HttpRuntime.ShutdownAppDomain(String stackTrace)
+   en System.Web.Compilation.DiskBuildResultCache.ShutdownCallBack(Object state)
+   en System.Threading.QueueUserWorkItemCallback.WaitCallback_Context(Object state)
+   en System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   en System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   en System.Threading.QueueUserWorkItemCallback.System.Threading.IThreadPoolWorkItem.ExecuteWorkItem()
+   en System.Threading.ThreadPoolWorkQueue.Dispatch()
+   en System.Threading._ThreadPoolWaitCallback.PerformWaitCallback()
+ 2015-12-08 03:58:22,034 [P5080/D5/T15] INFO  Umbraco.Core.Sync.ApplicationUrlHelper - ApplicationUrl: http://localhost:54276/umbraco (UmbracoModule request)
+ 2015-12-08 03:58:22,088 [P5080/D5/T43] INFO  Umbraco.Core.Sync.ApplicationUrlHelper - ApplicationUrl: http://localhost:54276/umbraco (UmbracoModule request)
+ 2015-12-08 03:58:23,333 [P5080/D5/T15] INFO  umbraco.content - Load Xml from file...
+ 2015-12-08 03:58:23,335 [P5080/D5/T15] INFO  umbraco.content - Loaded Xml from file.
+ 2015-12-08 03:58:24,185 [P5080/D5/T43] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.ICacheRefresher
+ 2015-12-08 03:58:24,187 [P5080/D5/T43] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.ICacheRefresher, found 0 (took 2ms)
+ 2015-12-08 03:58:24,817 [P5080/D5/T43] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.Persistence.Mappers.BaseMapper
+ 2015-12-08 03:58:24,821 [P5080/D5/T43] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.Persistence.Mappers.BaseMapper, found 0 (took 4ms)
+ 2015-12-08 03:58:27,389 [P5080/D5/T43] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.PropertyEditors.IParameterEditor
+ 2015-12-08 03:58:27,392 [P5080/D5/T43] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.PropertyEditors.IParameterEditor, found 0 (took 2ms)
+ 2015-12-08 03:58:31,366 [P5080/D5/T43] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.PropertyEditors.IParameterEditor
+ 2015-12-08 03:58:31,368 [P5080/D5/T43] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.PropertyEditors.IParameterEditor, found 0 (took 1ms)
+ 2015-12-08 03:58:31,411 [P5080/D5/T15] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.cms.businesslogic.macro.IMacroEngine
+ 2015-12-08 03:58:31,412 [P5080/D5/T15] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.cms.businesslogic.macro.IMacroEngine, found 0 (took 1ms)
+ 2015-12-08 03:58:53,129 [P5080/D5/T15] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.IApplication
+ 2015-12-08 03:58:53,132 [P5080/D5/T15] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.IApplication, found 0 (took 3ms)
+ 2015-12-08 03:59:18,520 [P5080/D5/T43] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.Trees.TreeController
+ 2015-12-08 03:59:18,538 [P5080/D5/T43] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.Trees.TreeController, found 0 (took 17ms)
+ 2015-12-08 03:59:18,542 [P5080/D5/T43] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.ITree
+ 2015-12-08 03:59:18,576 [P5080/D5/T43] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.ITree, found 0 (took 33ms)
+ 2015-12-08 03:59:18,973 [P5080/D5/T43] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.ITree
+ 2015-12-08 03:59:18,975 [P5080/D5/T43] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.ITree, found 0 (took 2ms)
+ 2015-12-08 03:59:32,869 [P5080/D5/T52] INFO  umbraco.BusinessLogic.Log - Log scrubbed.  Removed all items older than 2015-12-07 03:59:32
+ 2015-12-08 03:59:50,212 [P5080/D5/T66] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Sistema de Gestión para un Negocio' with Id '1087' has been published.
+ 2015-12-08 03:59:54,884 [P5080/D5/T41] INFO  umbraco.content - Save Xml to file...
+ 2015-12-08 03:59:54,936 [P5080/D5/T27] INFO  umbraco.content - Saved Xml to file.
+ 2015-12-08 13:11:27,555 [P5080/D5/T25] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2015-12-08 15:25:02,776 [P4504/D2/T1] INFO  Umbraco.Core.CoreBootManager - Umbraco 7.3.3 application starting on NOTEBOOK-ACER
+ 2015-12-08 15:25:03,233 [P4504/D2/T1] INFO  Umbraco.Core.PluginManager - Determining hash of code files on disk
+ 2015-12-08 15:25:03,264 [P4504/D2/T1] INFO  Umbraco.Core.PluginManager - Hash determined (took 29ms)
+ 2015-12-08 15:25:04,094 [P4504/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.IApplicationStartupHandler
+ 2015-12-08 15:25:06,402 [P4504/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.IApplicationStartupHandler, found 0 (took 2303ms)
+ 2015-12-08 15:25:07,645 [P4504/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter
+ 2015-12-08 15:25:07,647 [P4504/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter, found 0 (took 2ms)
+ 2015-12-08 15:25:07,648 [P4504/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyValueConverter
+ 2015-12-08 15:25:07,652 [P4504/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyValueConverter, found 0 (took 4ms)
+ 2015-12-08 15:25:07,754 [P4504/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.Mvc.SurfaceController
+ 2015-12-08 15:25:07,756 [P4504/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.Mvc.SurfaceController, found 0 (took 2ms)
+ 2015-12-08 15:25:07,758 [P4504/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.WebApi.UmbracoApiController
+ 2015-12-08 15:25:07,792 [P4504/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.WebApi.UmbracoApiController, found 0 (took 33ms)
+ 2015-12-08 15:25:08,897 [P4504/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.Media.IThumbnailProvider
+ 2015-12-08 15:25:08,904 [P4504/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.Media.IThumbnailProvider, found 0 (took 6ms)
+ 2015-12-08 15:25:08,905 [P4504/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.Media.IImageUrlProvider
+ 2015-12-08 15:25:08,906 [P4504/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.Media.IImageUrlProvider, found 0 (took 1ms)
+ 2015-12-08 15:25:12,562 [P4504/D2/T1] INFO  Umbraco.Core.DatabaseContext - CanConnect = True
+ 2015-12-08 15:25:15,280 [P4504/D2/T1] INFO  Umbraco.Core.DatabaseContext - CanConnect = True
+ 2015-12-08 15:25:15,368 [P4504/D2/T1] INFO  Umbraco.Core.DatabaseContext - CanConnect = True
+ 2015-12-08 15:25:15,520 [P4504/D2/T1] WARN  Umbraco.Core.Sync.DatabaseServerMessenger - No last synced Id found, this generally means this is a new server/install. The server will rebuild its caches and indexes and then adjust it's last synced id to the latest found in the database and will start maintaining cache updates based on that id
+ 2015-12-08 15:25:15,705 [P4504/D2/T1] INFO  umbraco.content - Load Xml from file...
+ 2015-12-08 15:25:15,878 [P4504/D2/T1] INFO  umbraco.content - Loaded Xml from file.
+ 2015-12-08 15:25:16,863 [P4504/D2/T1] INFO  umbraco.content - Loading content from database...
+ 2015-12-08 15:25:22,630 [P4504/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.PropertyEditors.IParameterEditor
+ 2015-12-08 15:25:22,638 [P4504/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.PropertyEditors.IParameterEditor, found 0 (took 7ms)
+ 2015-12-08 15:25:23,991 [P4504/D2/T9] INFO  umbraco.content - Save Xml to file...
+ 2015-12-08 15:25:24,490 [P4504/D2/T1] INFO  Umbraco.Web.Cache.CacheRefresherEventHandler - Initializing Umbraco internal event handlers for cache refreshing
+ 2015-12-08 15:25:24,576 [P4504/D2/T1] INFO  Umbraco.Web.Search.ExamineEvents - Initializing Examine and binding to business logic events
+ 2015-12-08 15:25:24,579 [P4504/D2/T1] INFO  Umbraco.Web.Search.ExamineEvents - Adding examine event handlers for index providers: 3
+ 2015-12-08 15:25:25,087 [P4504/D2/T1] INFO  Umbraco.Core.CoreBootManager - Umbraco application startup complete (took 22521ms)
+ 2015-12-08 15:25:25,274 [P4504/D2/T7] INFO  umbraco.content - Saved Xml to file.
+ 2015-12-08 15:25:37,777 [P4504/D2/T5] INFO  Umbraco.Core.Sync.ApplicationUrlHelper - ApplicationUrl: http://localhost:54276/umbraco (UmbracoModule request)
+ 2015-12-08 15:25:39,854 [P4504/D2/T5] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.Persistence.Mappers.BaseMapper
+ 2015-12-08 15:25:39,864 [P4504/D2/T5] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.Persistence.Mappers.BaseMapper, found 0 (took 9ms)
+ 2015-12-08 15:25:44,369 [P4504/D2/T5] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.PropertyEditors.IParameterEditor
+ 2015-12-08 15:25:44,377 [P4504/D2/T5] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.PropertyEditors.IParameterEditor, found 0 (took 0ms)
+ 2015-12-08 15:25:44,446 [P4504/D2/T5] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.cms.businesslogic.macro.IMacroEngine
+ 2015-12-08 15:25:44,467 [P4504/D2/T5] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.cms.businesslogic.macro.IMacroEngine, found 0 (took 21ms)
+ 2015-12-08 15:26:45,393 [P4504/D2/T5] INFO  umbraco.BusinessLogic.Log - Log scrubbed.  Removed all items older than 2015-12-07 15:26:45
+ 2015-12-08 15:27:52,986 [P4504/D2/T13] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: Login attempt succeeded for username hernandemczuk@gmail.com from IP address ::1
+ 2015-12-08 15:27:52,990 [P4504/D2/T13] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: User: hernandemczuk@gmail.com logged in from IP address ::1
+ 2015-12-08 15:27:53,452 [P4504/D2/T13] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.Trees.TreeController
+ 2015-12-08 15:27:53,455 [P4504/D2/T13] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.Trees.TreeController, found 0 (took 3ms)
+ 2015-12-08 15:27:53,772 [P4504/D2/T20] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.IApplication
+ 2015-12-08 15:27:53,782 [P4504/D2/T20] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.IApplication, found 0 (took 10ms)
+ 2015-12-08 15:27:54,296 [P4504/D2/T20] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.Trees.TreeController
+ 2015-12-08 15:27:54,296 [P4504/D2/T20] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.Trees.TreeController, found 0 (took 0ms)
+ 2015-12-08 15:27:54,325 [P4504/D2/T20] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.ITree
+ 2015-12-08 15:27:54,340 [P4504/D2/T20] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.ITree, found 0 (took 14ms)
+ 2015-12-08 15:27:54,654 [P4504/D2/T13] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.ITree
+ 2015-12-08 15:27:54,656 [P4504/D2/T13] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.ITree, found 0 (took 1ms)
+ 2015-12-08 15:28:13,314 [P4504/D2/T20] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.ICacheRefresher
+ 2015-12-08 15:28:13,316 [P4504/D2/T20] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.ICacheRefresher, found 0 (took 2ms)
+ 2015-12-08 15:42:43,380 [P4504/D2/T29] ERROR Umbraco.Core.UmbracoApplicationBase - An unhandled exception occurred
+System.Web.HttpCompileException (0x80004005): c:\Users\HernanMartin\Desktop\BlogHernanDemczuk\BlogHernanDemczuk\BlogHernanDemczuk\Views\BlogPost.cshtml(27): error CS0103: The name 'Field' does not exist in the current context
+   en System.Web.Compilation.AssemblyBuilder.Compile()
+   en System.Web.Compilation.BuildProvidersCompiler.PerformBuild()
+   en System.Web.Compilation.BuildManager.CompileWebFile(VirtualPath virtualPath)
+   en System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   en System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   en System.Web.Compilation.BuildManager.GetVirtualPathObjectFactory(VirtualPath virtualPath, HttpContext context, Boolean allowCrossApp, Boolean throwIfNotFound)
+   en System.Web.Compilation.BuildManager.GetCompiledType(VirtualPath virtualPath)
+   en System.Web.Compilation.BuildManager.GetCompiledType(String virtualPath)
+   en System.Web.Mvc.BuildManagerWrapper.System.Web.Mvc.IBuildManager.GetCompiledType(String virtualPath)
+   en System.Web.Mvc.BuildManagerCompiledView.Render(ViewContext viewContext, TextWriter writer)
+   en Umbraco.Core.Profiling.ProfilingView.Render(ViewContext viewContext, TextWriter writer)
+   en System.Web.Mvc.ViewResultBase.ExecuteResult(ControllerContext context)
+   en System.Web.Mvc.ControllerActionInvoker.InvokeActionResult(ControllerContext controllerContext, ActionResult actionResult)
+   en System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   en System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   en System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   en System.Web.Mvc.ControllerActionInvoker.InvokeActionResultWithFilters(ControllerContext controllerContext, IList`1 filters, ActionResult actionResult)
+   en System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<>c__DisplayClass2b.<BeginInvokeAction>b__1c()
+   en System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<BeginInvokeAction>b__1e(IAsyncResult asyncResult)
+   en System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.CallEndDelegate(IAsyncResult asyncResult)
+   en System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   en System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeAction(IAsyncResult asyncResult)
+   en System.Web.Mvc.Controller.<BeginExecuteCore>b__1d(IAsyncResult asyncResult, ExecuteCoreState innerState)
+   en System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   en System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   en System.Web.Mvc.Controller.EndExecuteCore(IAsyncResult asyncResult)
+   en System.Web.Mvc.Controller.<BeginExecute>b__15(IAsyncResult asyncResult, Controller controller)
+   en System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   en System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   en System.Web.Mvc.Controller.EndExecute(IAsyncResult asyncResult)
+   en System.Web.Mvc.Controller.System.Web.Mvc.Async.IAsyncController.EndExecute(IAsyncResult asyncResult)
+   en System.Web.Mvc.MvcHandler.<BeginProcessRequest>b__5(IAsyncResult asyncResult, ProcessRequestState innerState)
+   en System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   en System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   en System.Web.Mvc.MvcHandler.EndProcessRequest(IAsyncResult asyncResult)
+   en System.Web.Mvc.MvcHandler.System.Web.IHttpAsyncHandler.EndProcessRequest(IAsyncResult result)
+   en System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   en System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+ 2015-12-08 15:54:09,929 [P4504/D2/T26] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.Trees.TreeController
+ 2015-12-08 15:54:09,929 [P4504/D2/T26] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.Trees.TreeController, found 0 (took 0ms)
+ 2015-12-08 15:54:33,737 [P4504/D2/T38] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Sistema de Gestión para un Negocio' with Id '1087' has been published.
+ 2015-12-08 15:54:38,386 [P4504/D2/T7] INFO  umbraco.content - Save Xml to file...
+ 2015-12-08 15:54:38,630 [P4504/D2/T7] INFO  umbraco.content - Saved Xml to file.
+ 2015-12-08 16:04:43,870 [P4504/D2/T32] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Sistema de Gestión para un Negocio' with Id '1087' has been published.
+ 2015-12-08 16:04:47,950 [P4504/D2/T7] INFO  umbraco.content - Save Xml to file...
+ 2015-12-08 16:04:48,109 [P4504/D2/T30] INFO  umbraco.content - Saved Xml to file.
+ 2015-12-08 16:06:41,366 [P4504/D2/T7] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Sistema de Gestión para un Negocio' with Id '1087' has been published.
+ 2015-12-08 16:06:45,430 [P4504/D2/T28] INFO  umbraco.content - Save Xml to file...
+ 2015-12-08 16:06:45,464 [P4504/D2/T9] INFO  umbraco.content - Saved Xml to file.
+ 2015-12-08 16:21:47,429 [P4504/D2/T26] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledPublishing] Terminating
+ 2015-12-08 16:21:47,429 [P4504/D2/T26] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledPublishing] Waiting for tasks to complete
+ 2015-12-08 16:21:47,429 [P4504/D2/T26] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [LogScrubber] Terminating
+ 2015-12-08 16:21:47,429 [P4504/D2/T26] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [LogScrubber] Waiting for tasks to complete
+ 2015-12-08 16:21:47,429 [P4504/D2/T26] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [KeepAlive] Terminating
+ 2015-12-08 16:21:47,429 [P4504/D2/T26] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [KeepAlive] Waiting for tasks to complete
+ 2015-12-08 16:21:47,429 [P4504/D2/T26] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledTasks] Terminating
+ 2015-12-08 16:21:47,429 [P4504/D2/T26] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledTasks] Waiting for tasks to complete
+ 2015-12-08 16:21:47,432 [P4504/D2/T22] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledPublishing] Tasks completed, terminated
+ 2015-12-08 16:21:47,432 [P4504/D2/T13] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [KeepAlive] Tasks completed, terminated
+ 2015-12-08 16:21:47,432 [P4504/D2/T28] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledTasks] Tasks completed, terminated
+ 2015-12-08 16:21:47,486 [P4504/D2/T5] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [LogScrubber] Tasks completed, terminated
+ 2015-12-08 16:22:15,216 [P4504/D3/T33] INFO  Umbraco.Core.CoreBootManager - Umbraco 7.3.3 application starting on NOTEBOOK-ACER
+ 2015-12-08 16:22:15,536 [P4504/D3/T33] INFO  Umbraco.Core.PluginManager - Determining hash of code files on disk
+ 2015-12-08 16:22:15,589 [P4504/D3/T33] INFO  Umbraco.Core.PluginManager - Hash determined (took 51ms)
+ 2015-12-08 16:22:15,861 [P4504/D3/T33] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.IApplicationStartupHandler
+ 2015-12-08 16:22:16,353 [P4504/D3/T33] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.IApplicationStartupHandler, found 0 (took 492ms)
+ 2015-12-08 16:22:16,600 [P4504/D3/T33] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter
+ 2015-12-08 16:22:16,604 [P4504/D3/T33] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter, found 0 (took 3ms)
+ 2015-12-08 16:22:16,605 [P4504/D3/T33] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyValueConverter
+ 2015-12-08 16:22:16,607 [P4504/D3/T33] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyValueConverter, found 0 (took 2ms)
+ 2015-12-08 16:22:16,642 [P4504/D3/T33] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.Mvc.SurfaceController
+ 2015-12-08 16:22:16,644 [P4504/D3/T33] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.Mvc.SurfaceController, found 0 (took 2ms)
+ 2015-12-08 16:22:16,644 [P4504/D3/T33] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.WebApi.UmbracoApiController
+ 2015-12-08 16:22:16,650 [P4504/D3/T33] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.WebApi.UmbracoApiController, found 0 (took 5ms)
+ 2015-12-08 16:22:17,008 [P4504/D3/T33] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.Media.IThumbnailProvider
+ 2015-12-08 16:22:17,022 [P4504/D3/T33] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.Media.IThumbnailProvider, found 0 (took 13ms)
+ 2015-12-08 16:22:17,022 [P4504/D3/T33] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.Media.IImageUrlProvider
+ 2015-12-08 16:22:17,023 [P4504/D3/T33] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.Media.IImageUrlProvider, found 0 (took 1ms)
+ 2015-12-08 16:22:17,626 [P4504/D2/T22] INFO  Umbraco.Core.UmbracoApplicationBase - Application shutdown. Details: ConfigurationChange
+
+_shutDownMessage=Change in App_Offline.htm
+HostingEnvironment initiated shutdown
+Change in App_Offline.htm
+Change in App_Offline.htm
+Change in App_Offline.htm
+Change in App_Offline.htm
+Change in App_Offline.htm
+Change in App_Offline.htm
+Change in App_Offline.htm
+Change in App_Offline.htm
+Change in App_Offline.htm
+Change in App_Offline.htm
+HostingEnvironment originó el cierre
+
+_shutDownStack=   en System.Environment.GetStackTrace(Exception e, Boolean needFileInfo)
+   en System.Environment.get_StackTrace()
+   en System.Web.Hosting.HostingEnvironment.InitiateShutdownInternal()
+   en System.Web.Hosting.HostingEnvironment.InitiateShutdownWithoutDemand()
+   en System.Web.HttpRuntime.ShutdownAppDomain(String stackTrace)
+   en System.Web.HttpRuntime.OnAppOfflineFileChange(Object sender, FileChangeEvent e)
+   en System.Web.DirectoryMonitor.FireNotifications()
+   en System.Web.Util.WorkItem.CallCallbackWithAssert(WorkItemCallback callback)
+   en System.Web.Util.WorkItem.OnQueueUserWorkItemCompletion(Object state)
+   en System.Threading.QueueUserWorkItemCallback.WaitCallback_Context(Object state)
+   en System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   en System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   en System.Threading.QueueUserWorkItemCallback.System.Threading.IThreadPoolWorkItem.ExecuteWorkItem()
+   en System.Threading.ThreadPoolWorkQueue.Dispatch()
+   en System.Threading._ThreadPoolWaitCallback.PerformWaitCallback()
+ 2015-12-08 16:22:18,314 [P4504/D3/T33] INFO  Umbraco.Core.DatabaseContext - CanConnect = True
+ 2015-12-08 16:22:18,603 [P4504/D3/T33] INFO  Umbraco.Core.DatabaseContext - CanConnect = True
+ 2015-12-08 16:22:18,619 [P4504/D3/T33] INFO  Umbraco.Core.DatabaseContext - CanConnect = True
+ 2015-12-08 16:22:18,834 [P4504/D3/T33] INFO  Umbraco.Web.Cache.CacheRefresherEventHandler - Initializing Umbraco internal event handlers for cache refreshing
+ 2015-12-08 16:22:19,267 [P4504/D3/T33] INFO  Umbraco.Web.Search.ExamineEvents - Initializing Examine and binding to business logic events
+ 2015-12-08 16:22:19,341 [P4504/D3/T33] INFO  Umbraco.Web.Search.ExamineEvents - Adding examine event handlers for index providers: 3
+ 2015-12-08 16:22:19,349 [P4504/D3/T33] INFO  Umbraco.Core.CoreBootManager - Umbraco application startup complete (took 4230ms)
+ 2015-12-08 16:22:29,879 [P4504/D3/T26] INFO  Umbraco.Core.Sync.ApplicationUrlHelper - ApplicationUrl: http://localhost:54276/umbraco (UmbracoModule request)
+ 2015-12-08 16:23:04,231 [P4504/D3/T38] INFO  Umbraco.Core.UmbracoApplicationBase - Application shutdown. Details: BinDirChangeOrDirectoryRename
+
+_shutDownMessage=Cambiar la notificación para directorios importantes.
+bin dir change or directory rename
+HostingEnvironment initiated shutdown
+Cambiar la notificación para directorios importantes.
+bin dir change or directory rename
+Cambiar la notificación para directorios importantes.
+bin dir change or directory rename
+Cambiar la notificación para directorios importantes.
+bin dir change or directory rename
+Cambiar la notificación para directorios importantes.
+bin dir change or directory rename
+Cambiar la notificación para directorios importantes.
+bin dir change or directory rename
+Cambiar la notificación para directorios importantes.
+bin dir change or directory rename
+Cambiar la notificación para directorios importantes.
+bin dir change or directory rename
+Cambiar la notificación para directorios importantes.
+bin dir change or directory rename
+Cambiar la notificación para directorios importantes.
+bin dir change or directory rename
+HostingEnvironment originó el cierre
+
+_shutDownStack=   en System.Environment.GetStackTrace(Exception e, Boolean needFileInfo)
+   en System.Environment.get_StackTrace()
+   en System.Web.Hosting.HostingEnvironment.InitiateShutdownInternal()
+   en System.Web.Hosting.HostingEnvironment.InitiateShutdownWithoutDemand()
+   en System.Web.HttpRuntime.ShutdownAppDomain(String stackTrace)
+   en System.Web.HttpRuntime.OnCriticalDirectoryChange(Object sender, FileChangeEvent e)
+   en System.Web.FileChangesMonitor.OnCriticaldirChange(Object sender, FileChangeEvent e)
+   en System.Web.DirectoryMonitor.FireNotifications()
+   en System.Web.Util.WorkItem.CallCallbackWithAssert(WorkItemCallback callback)
+   en System.Web.Util.WorkItem.OnQueueUserWorkItemCompletion(Object state)
+   en System.Threading.QueueUserWorkItemCallback.WaitCallback_Context(Object state)
+   en System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   en System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   en System.Threading.QueueUserWorkItemCallback.System.Threading.IThreadPoolWorkItem.ExecuteWorkItem()
+   en System.Threading.ThreadPoolWorkQueue.Dispatch()
+   en System.Threading._ThreadPoolWaitCallback.PerformWaitCallback()
+ 2015-12-08 16:23:09,342 [P4504/D4/T1] INFO  Umbraco.Core.CoreBootManager - Umbraco 7.3.3 application starting on NOTEBOOK-ACER
+ 2015-12-08 16:23:09,476 [P4504/D4/T1] INFO  Umbraco.Core.PluginManager - Determining hash of code files on disk
+ 2015-12-08 16:23:09,523 [P4504/D4/T1] INFO  Umbraco.Core.PluginManager - Hash determined (took 44ms)
+ 2015-12-08 16:23:10,446 [P4504/D4/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.IApplicationStartupHandler
+ 2015-12-08 16:23:11,544 [P4504/D4/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.IApplicationStartupHandler, found 0 (took 1097ms)
+ 2015-12-08 16:23:11,586 [P4504/D4/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter
+ 2015-12-08 16:23:11,620 [P4504/D4/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter, found 0 (took 33ms)
+ 2015-12-08 16:23:11,621 [P4504/D4/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyValueConverter
+ 2015-12-08 16:23:11,692 [P4504/D4/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyValueConverter, found 0 (took 71ms)
+ 2015-12-08 16:23:11,741 [P4504/D4/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.Mvc.SurfaceController
+ 2015-12-08 16:23:11,838 [P4504/D4/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.Mvc.SurfaceController, found 0 (took 97ms)
+ 2015-12-08 16:23:11,839 [P4504/D4/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.WebApi.UmbracoApiController
+ 2015-12-08 16:23:11,955 [P4504/D4/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.WebApi.UmbracoApiController, found 0 (took 115ms)
+ 2015-12-08 16:23:12,149 [P4504/D4/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.Media.IThumbnailProvider
+ 2015-12-08 16:23:12,212 [P4504/D4/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.Media.IThumbnailProvider, found 0 (took 62ms)
+ 2015-12-08 16:23:12,233 [P4504/D4/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.Media.IImageUrlProvider
+ 2015-12-08 16:23:12,322 [P4504/D4/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.Media.IImageUrlProvider, found 0 (took 89ms)
+ 2015-12-08 16:23:14,816 [P4504/D4/T1] INFO  Umbraco.Core.DatabaseContext - CanConnect = True
+ 2015-12-08 16:23:15,376 [P4504/D4/T1] INFO  Umbraco.Core.DatabaseContext - CanConnect = True
+ 2015-12-08 16:23:15,457 [P4504/D4/T1] INFO  Umbraco.Core.DatabaseContext - CanConnect = True
+ 2015-12-08 16:23:15,560 [P4504/D4/T1] INFO  Umbraco.Web.Cache.CacheRefresherEventHandler - Initializing Umbraco internal event handlers for cache refreshing
+ 2015-12-08 16:23:15,610 [P4504/D4/T1] INFO  Umbraco.Web.Search.ExamineEvents - Initializing Examine and binding to business logic events
+ 2015-12-08 16:23:15,807 [P4504/D4/T1] INFO  Umbraco.Web.Search.ExamineEvents - Adding examine event handlers for index providers: 3
+ 2015-12-08 16:23:15,828 [P4504/D4/T1] INFO  Umbraco.Core.CoreBootManager - Umbraco application startup complete (took 6630ms)
+ 2015-12-08 16:23:16,782 [P4504/D4/T22] INFO  Umbraco.Core.Sync.ApplicationUrlHelper - ApplicationUrl: http://localhost:54276/umbraco (UmbracoModule request)
+ 2015-12-08 16:23:17,479 [P4504/D4/T22] INFO  umbraco.content - Load Xml from file...
+ 2015-12-08 16:23:17,491 [P4504/D4/T22] INFO  umbraco.content - Loaded Xml from file.
+ 2015-12-08 16:23:18,127 [P4504/D4/T22] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.Persistence.Mappers.BaseMapper
+ 2015-12-08 16:23:18,183 [P4504/D4/T22] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.Persistence.Mappers.BaseMapper, found 0 (took 55ms)
+ 2015-12-08 16:23:25,570 [P4504/D4/T22] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.PropertyEditors.IParameterEditor
+ 2015-12-08 16:23:25,625 [P4504/D4/T22] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.PropertyEditors.IParameterEditor, found 0 (took 54ms)
+ 2015-12-08 16:23:29,598 [P4504/D4/T22] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.PropertyEditors.IParameterEditor
+ 2015-12-08 16:23:29,611 [P4504/D4/T22] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.PropertyEditors.IParameterEditor, found 0 (took 13ms)
+ 2015-12-08 16:23:29,664 [P4504/D4/T22] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.cms.businesslogic.macro.IMacroEngine
+ 2015-12-08 16:23:29,711 [P4504/D4/T22] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.cms.businesslogic.macro.IMacroEngine, found 0 (took 46ms)
+ 2015-12-08 16:24:34,425 [P4504/D4/T28] INFO  umbraco.BusinessLogic.Log - Log scrubbed.  Removed all items older than 2015-12-07 16:24:34
+ 2015-12-08 16:24:57,022 [P4504/D4/T21] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Sistema de Gestión para un Negocio' with Id '1087' has been published.
+ 2015-12-08 16:24:57,178 [P4504/D4/T21] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.ICacheRefresher
+ 2015-12-08 16:24:57,276 [P4504/D4/T21] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.ICacheRefresher, found 0 (took 97ms)
+ 2015-12-08 16:25:01,596 [P4504/D4/T35] INFO  umbraco.content - Save Xml to file...
+ 2015-12-08 16:25:01,609 [P4504/D4/T20] INFO  umbraco.content - Saved Xml to file.
+ 2015-12-08 16:25:33,967 [P4504/D4/T21] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.IApplication
+ 2015-12-08 16:25:33,992 [P4504/D4/T21] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.IApplication, found 0 (took 25ms)
+ 2015-12-08 16:25:54,559 [P4504/D4/T21] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.Trees.TreeController
+ 2015-12-08 16:25:54,701 [P4504/D4/T21] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.Trees.TreeController, found 0 (took 141ms)
+ 2015-12-08 16:25:54,736 [P4504/D4/T21] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.ITree
+ 2015-12-08 16:25:54,784 [P4504/D4/T21] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.ITree, found 0 (took 48ms)
+ 2015-12-08 16:25:54,840 [P4504/D4/T21] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.ITree
+ 2015-12-08 16:25:54,927 [P4504/D4/T21] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.ITree, found 0 (took 86ms)
+ 2015-12-08 16:28:12,093 [P4504/D4/T18] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.Trees.TreeController
+ 2015-12-08 16:28:12,093 [P4504/D4/T18] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.Trees.TreeController, found 0 (took 0ms)
+ 2015-12-08 16:28:58,799 [P4504/D4/T27] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Sistema de Gestión para un Negocio' with Id '1087' has been published.
+ 2015-12-08 16:29:02,929 [P4504/D4/T27] INFO  umbraco.content - Save Xml to file...
+ 2015-12-08 16:29:02,990 [P4504/D4/T15] INFO  umbraco.content - Saved Xml to file.
+ 2015-12-08 16:39:52,976 [P4504/D4/T32] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Sistema de Gestión para un Negocio' with Id '1087' has been published.
+ 2015-12-08 16:39:57,065 [P4504/D4/T18] INFO  umbraco.content - Save Xml to file...
+ 2015-12-08 16:39:57,085 [P4504/D4/T23] INFO  umbraco.content - Saved Xml to file.
+ 2015-12-08 16:46:37,231 [P4504/D4/T32] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Sistema de Gestión para un Negocio' with Id '1087' has been published.
+ 2015-12-08 16:46:41,342 [P4504/D4/T29] INFO  umbraco.content - Save Xml to file...
+ 2015-12-08 16:46:41,671 [P4504/D4/T29] INFO  umbraco.content - Saved Xml to file.
+ 2015-12-08 16:47:05,054 [P4504/D4/T11] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.Trees.TreeController
+ 2015-12-08 16:47:05,055 [P4504/D4/T11] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.Trees.TreeController, found 0 (took 0ms)
+ 2015-12-08 16:53:38,818 [P4504/D4/T32] ERROR Umbraco.Web.WebApi.Filters.FileUploadCleanupFilterAttribute - Could not delete temp file C:\Users\HernanMartin\Desktop\BlogHernanDemczuk\BlogHernanDemczuk\BlogHernanDemczuk\App_Data\TEMP\FileUploads\BodyPart_b7519a7b-f993-40a4-911a-0a2042b6ff6a
+System.IO.IOException: The process cannot access the file 'C:\Users\HernanMartin\Desktop\BlogHernanDemczuk\BlogHernanDemczuk\BlogHernanDemczuk\App_Data\TEMP\FileUploads\BodyPart_b7519a7b-f993-40a4-911a-0a2042b6ff6a' because it is being used by another process.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.File.InternalDelete(String path, Boolean checkHost)
+   at System.IO.File.Delete(String path)
+   at Umbraco.Web.WebApi.Filters.FileUploadCleanupFilterAttribute.OnActionExecuted(HttpActionExecutedContext actionExecutedContext)
+ 2015-12-08 16:55:09,849 [P4504/D4/T41] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Sistema de Gestión para un Negocio' with Id '1087' has been published.
+ 2015-12-08 16:55:13,954 [P4504/D4/T29] INFO  umbraco.content - Save Xml to file...
+ 2015-12-08 16:55:13,982 [P4504/D4/T12] INFO  umbraco.content - Saved Xml to file.
+ 2015-12-08 17:11:32,087 [P4504/D4/T77] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Sistema de Gestión para un Negocio' with Id '1087' has been published.
+ 2015-12-08 17:11:36,149 [P4504/D4/T38] INFO  umbraco.content - Save Xml to file...
+ 2015-12-08 17:11:36,415 [P4504/D4/T78] INFO  umbraco.content - Saved Xml to file.
+ 2015-12-08 17:13:37,511 [P4504/D4/T38] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Sistema de Gestión para un Negocio' with Id '1087' has been published.
+ 2015-12-08 17:13:41,586 [P4504/D4/T66] INFO  umbraco.content - Save Xml to file...
+ 2015-12-08 17:13:41,595 [P4504/D4/T70] INFO  umbraco.content - Saved Xml to file.
+ 2015-12-08 17:14:57,114 [P4504/D4/T77] WARN  Umbraco.Web.Models.Mapping.PreValueDisplayResolver - Could not find persisted pre-value for field startNodeId
+ 2015-12-08 17:17:05,849 [P4504/D4/T62] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Sistema de Gestión para un Negocio' with Id '1087' has been published.
+ 2015-12-08 17:17:09,947 [P4504/D4/T59] INFO  umbraco.content - Save Xml to file...
+ 2015-12-08 17:17:09,971 [P4504/D4/T73] INFO  umbraco.content - Saved Xml to file.
+ 2015-12-08 17:18:05,245 [P4504/D4/T66] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Sistema de Gestión para un Negocio' with Id '1087' has been published.
+ 2015-12-08 17:18:09,322 [P4504/D4/T59] INFO  umbraco.content - Save Xml to file...
+ 2015-12-08 17:18:09,359 [P4504/D4/T71] INFO  umbraco.content - Saved Xml to file.
+ 2015-12-08 17:24:02,524 [P4504/D4/T19] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Sistema de Gestión para un Negocio' with Id '1087' has been published.
+ 2015-12-08 17:24:06,593 [P4504/D4/T38] INFO  umbraco.content - Save Xml to file...
+ 2015-12-08 17:24:06,638 [P4504/D4/T55] INFO  umbraco.content - Saved Xml to file.
+ 2015-12-08 17:30:07,910 [P4504/D4/T67] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Sistema de Gestión para un Negocio' with Id '1087' has been published.
+ 2015-12-08 17:30:12,015 [P4504/D4/T58] INFO  umbraco.content - Save Xml to file...
+ 2015-12-08 17:30:12,147 [P4504/D4/T36] INFO  umbraco.content - Saved Xml to file.
+ 2015-12-08 17:54:47,415 [P4504/D4/T82] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Sistema de Gestión para un Negocio' with Id '1087' has been published.
+ 2015-12-08 17:54:51,487 [P4504/D4/T81] INFO  umbraco.content - Save Xml to file...
+ 2015-12-08 17:54:51,503 [P4504/D4/T80] INFO  umbraco.content - Saved Xml to file.
+ 2015-12-08 17:55:02,256 [P4504/D4/T78] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.Trees.TreeController
+ 2015-12-08 17:55:02,256 [P4504/D4/T78] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.Trees.TreeController, found 0 (took 0ms)
+ 2015-12-08 17:55:58,518 [P4504/D4/T85] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Sistema de Gestión para un Negocio' with Id '1087' has been published.
+ 2015-12-08 17:56:02,589 [P4504/D4/T70] INFO  umbraco.content - Save Xml to file...
+ 2015-12-08 17:56:02,615 [P4504/D4/T86] INFO  umbraco.content - Saved Xml to file.
+ 2015-12-08 17:57:29,573 [P4504/D4/T82] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Sistema de Gestión para un Negocio' with Id '1087' has been published.
+ 2015-12-08 17:57:33,690 [P4504/D4/T78] INFO  umbraco.content - Save Xml to file...
+ 2015-12-08 17:57:33,711 [P4504/D4/T65] INFO  umbraco.content - Saved Xml to file.
+ 2015-12-08 18:39:01,643 [P4508/D2/T1] INFO  Umbraco.Core.CoreBootManager - Umbraco 7.3.3 application starting on NOTEBOOK-ACER
+ 2015-12-08 18:39:02,212 [P4508/D2/T1] INFO  Umbraco.Core.PluginManager - Determining hash of code files on disk
+ 2015-12-08 18:39:02,254 [P4508/D2/T1] INFO  Umbraco.Core.PluginManager - Hash determined (took 39ms)
+ 2015-12-08 18:39:03,294 [P4508/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.IApplicationStartupHandler
+ 2015-12-08 18:39:04,224 [P4508/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.IApplicationStartupHandler, found 0 (took 929ms)
+ 2015-12-08 18:39:05,036 [P4508/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter
+ 2015-12-08 18:39:05,040 [P4508/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter, found 0 (took 4ms)
+ 2015-12-08 18:39:05,041 [P4508/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyValueConverter
+ 2015-12-08 18:39:05,047 [P4508/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyValueConverter, found 0 (took 6ms)
+ 2015-12-08 18:39:05,108 [P4508/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.Mvc.SurfaceController
+ 2015-12-08 18:39:05,114 [P4508/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.Mvc.SurfaceController, found 0 (took 5ms)
+ 2015-12-08 18:39:05,115 [P4508/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.WebApi.UmbracoApiController
+ 2015-12-08 18:39:05,122 [P4508/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.WebApi.UmbracoApiController, found 0 (took 7ms)
+ 2015-12-08 18:39:05,874 [P4508/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.Media.IThumbnailProvider
+ 2015-12-08 18:39:05,875 [P4508/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.Media.IThumbnailProvider, found 0 (took 1ms)
+ 2015-12-08 18:39:05,876 [P4508/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.Media.IImageUrlProvider
+ 2015-12-08 18:39:05,877 [P4508/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.Media.IImageUrlProvider, found 0 (took 1ms)
+ 2015-12-08 18:39:09,057 [P4508/D2/T1] INFO  Umbraco.Core.DatabaseContext - CanConnect = True
+ 2015-12-08 18:39:10,479 [P4508/D2/T1] INFO  Umbraco.Core.DatabaseContext - CanConnect = True
+ 2015-12-08 18:39:10,545 [P4508/D2/T1] INFO  Umbraco.Core.DatabaseContext - CanConnect = True
+ 2015-12-08 18:39:10,637 [P4508/D2/T1] WARN  Umbraco.Core.Sync.DatabaseServerMessenger - No last synced Id found, this generally means this is a new server/install. The server will rebuild its caches and indexes and then adjust it's last synced id to the latest found in the database and will start maintaining cache updates based on that id
+ 2015-12-08 18:39:10,724 [P4508/D2/T1] INFO  umbraco.content - Load Xml from file...
+ 2015-12-08 18:39:10,845 [P4508/D2/T1] INFO  umbraco.content - Loaded Xml from file.
+ 2015-12-08 18:39:11,437 [P4508/D2/T1] INFO  umbraco.content - Loading content from database...
+ 2015-12-08 18:39:16,871 [P4508/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.PropertyEditors.IParameterEditor
+ 2015-12-08 18:39:16,878 [P4508/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.PropertyEditors.IParameterEditor, found 0 (took 6ms)
+ 2015-12-08 18:39:17,673 [P4508/D2/T9] INFO  umbraco.content - Save Xml to file...
+ 2015-12-08 18:39:17,738 [P4508/D2/T13] INFO  umbraco.content - Saved Xml to file.
+ 2015-12-08 18:39:19,420 [P4508/D2/T1] INFO  Umbraco.Web.Cache.CacheRefresherEventHandler - Initializing Umbraco internal event handlers for cache refreshing
+ 2015-12-08 18:39:19,456 [P4508/D2/T1] INFO  Umbraco.Web.Search.ExamineEvents - Initializing Examine and binding to business logic events
+ 2015-12-08 18:39:19,457 [P4508/D2/T1] INFO  Umbraco.Web.Search.ExamineEvents - Adding examine event handlers for index providers: 3
+ 2015-12-08 18:39:19,575 [P4508/D2/T1] INFO  Umbraco.Core.CoreBootManager - Umbraco application startup complete (took 18121ms)
+ 2015-12-08 18:39:30,581 [P4508/D2/T7] INFO  Umbraco.Core.Sync.ApplicationUrlHelper - ApplicationUrl: http://localhost:54276/umbraco (UmbracoModule request)
+ 2015-12-08 18:39:32,482 [P4508/D2/T11] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.Persistence.Mappers.BaseMapper
+ 2015-12-08 18:39:32,485 [P4508/D2/T11] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.Persistence.Mappers.BaseMapper, found 0 (took 3ms)
+ 2015-12-08 18:39:35,020 [P4508/D2/T11] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.PropertyEditors.IParameterEditor
+ 2015-12-08 18:39:35,023 [P4508/D2/T11] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.PropertyEditors.IParameterEditor, found 0 (took 2ms)
+ 2015-12-08 18:39:35,128 [P4508/D2/T11] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.cms.businesslogic.macro.IMacroEngine
+ 2015-12-08 18:39:35,131 [P4508/D2/T11] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.cms.businesslogic.macro.IMacroEngine, found 0 (took 2ms)
+ 2015-12-08 18:40:32,776 [P4508/D2/T7] INFO  umbraco.BusinessLogic.Log - Log scrubbed.  Removed all items older than 2015-12-07 18:40:32
+ 2015-12-08 18:47:32,912 [P4508/D2/T10] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [KeepAlive] Terminating
+ 2015-12-08 18:47:32,913 [P4508/D2/T10] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [KeepAlive] Waiting for tasks to complete
+ 2015-12-08 18:47:32,917 [P4508/D2/T10] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [KeepAlive] Tasks completed, terminated
+ 2015-12-08 18:47:32,917 [P4508/D2/T10] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledTasks] Terminating
+ 2015-12-08 18:47:32,917 [P4508/D2/T10] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledTasks] Waiting for tasks to complete
+ 2015-12-08 18:47:32,917 [P4508/D2/T10] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledTasks] Tasks completed, terminated
+ 2015-12-08 18:47:33,029 [P4508/D2/T10] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [LogScrubber] Terminating
+ 2015-12-08 18:47:33,029 [P4508/D2/T10] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [LogScrubber] Waiting for tasks to complete
+ 2015-12-08 18:47:33,029 [P4508/D2/T10] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledPublishing] Terminating
+ 2015-12-08 18:47:33,029 [P4508/D2/T10] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledPublishing] Waiting for tasks to complete
+ 2015-12-08 18:47:33,029 [P4508/D2/T7] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [LogScrubber] Tasks completed, terminated
+ 2015-12-08 18:47:33,030 [P4508/D2/T21] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledPublishing] Tasks completed, terminated
+ 2015-12-08 18:48:03,156 [P4508/D2/T11] INFO  Umbraco.Core.UmbracoApplicationBase - Application shutdown. Details: BinDirChangeOrDirectoryRename
+
+_shutDownMessage=Cambiar la notificación para directorios importantes.
+bin dir change or directory rename
+HostingEnvironment initiated shutdown
+Cambiar la notificación para directorios importantes.
+bin dir change or directory rename
+Cambiar la notificación para directorios importantes.
+bin dir change or directory rename
+Cambiar la notificación para directorios importantes.
+bin dir change or directory rename
+Cambiar la notificación para directorios importantes.
+bin dir change or directory rename
+Cambiar la notificación para directorios importantes.
+bin dir change or directory rename
+Cambiar la notificación para directorios importantes.
+bin dir change or directory rename
+Cambiar la notificación para directorios importantes.
+bin dir change or directory rename
+Cambiar la notificación para directorios importantes.
+bin dir change or directory rename
+Cambiar la notificación para directorios importantes.
+bin dir change or directory rename
+Cambiar la notificación para directorios importantes.
+bin dir change or directory rename
+Cambiar la notificación para directorios importantes.
+bin dir change or directory rename
+Cambiar la notificación para directorios importantes.
+bin dir change or directory rename
+Cambiar la notificación para directorios importantes.
+bin dir change or directory rename
+Cambiar la notificación para directorios importantes.
+bin dir change or directory rename
+Cambiar la notificación para directorios importantes.
+bin dir change or directory rename
+Cambiar la notificación para directorios importantes.
+bin dir change or directory rename
+Cambiar la notificación para directorios importantes.
+bin dir change or directory rename
+Cambiar la notificación para directorios importantes.
+bin dir change or directory rename
+Cambiar la notificación para directorios importantes.
+bin dir change or directory rename
+Cambiar la notificación para directorios importantes.
+bin dir change or directory rename
+Cambiar la notificación para directorios importantes.
+bin dir change or directory rename
+Cambiar la notificación para directorios importantes.
+bin dir change or directory rename
+Cambiar la notificación para directorios importantes.
+bin dir change or directory rename
+Cambiar la notificación para directorios importantes.
+bin dir change or directory rename
+Cambiar la notificación para directorios importantes.
+bin dir change or directory rename
+Cambiar la notificación para directorios importantes.
+bin dir change or directory rename
+Cambiar la notificación para directorios importantes.
+bin dir change or directory rename
+Cambiar la notificación para directorios importantes.
+bin dir change or directory rename
+Cambiar la notificación para directorios importantes.
+bin dir change or directory rename
+Cambiar la notificación para directorios importantes.
+bin dir change or directory rename
+Cambiar la notificación para directorios importantes.
+bin dir change or directory rename
+Cambiar la notificación para directorios importantes.
+bin dir change or directory rename
+Cambiar la notificación para directorios importantes.
+bin dir change or directory rename
+Cambiar la notificación para directorios importantes.
+bin dir change or directory rename
+Cambiar la notificación para directorios importantes.
+bin dir change or directory rename
+Cambiar la notificación para directorios importantes.
+bin dir change or directory rename
+Cambiar la notificación para directorios importantes.
+bin dir change or directory rename
+Cambiar la notificación para directorios importantes.
+bin dir change or directory rename
+Cambiar la notificación para directorios importantes.
+bin dir change or directory rename
+Cambiar la notificación para directorios importantes.
+bin dir change or directory rename
+Cambiar la notificación para directorios importantes.
+bin dir change or directory rename
+Cambiar la notificación para directorios importantes.
+bin dir change or directory rename
+Cambiar la notificación para directorios importantes.
+bin dir change or directory rename
+Cambiar la notificación para directorios importantes.
+bin dir change or directory rename
+Cambiar la notificación para directorios importantes.
+bin dir change or directory rename
+Cambiar la notificación para directorios importantes.
+bin dir change or directory rename
+Cambiar la notificación para directorios importantes.
+bin dir change or directory rename
+Cambiar la notificación para directorios importantes.
+bin dir change or directory rename
+Cambiar la notificación para directorios importantes.
+bin dir change or directory rename
+Cambiar la notificación para directorios importantes.
+bin dir change or directory rename
+Cambiar la notificación para directorios importantes.
+bin dir change or directory rename
+Cambiar la notificación para directorios importantes.
+bin dir change or directory rename
+Cambiar la notificación para directorios importantes.
+bin dir change or directory rename
+Cambiar la notificación para directorios importantes.
+bin dir change or directory rename
+Cambiar la notificación para directorios importantes.
+bin dir change or directory rename
+Cambiar la notificación para directorios importantes.
+bin dir change or directory rename
+Cambiar la notificación para directorios importantes.
+bin dir change or directory rename
+Cambiar la notificación para directorios importantes.
+bin dir change or directory rename
+Cambiar la notificación para directorios importantes.
+bin dir change or directory rename
+Cambiar la notificación para directorios importantes.
+bin dir change or directory rename
+Cambiar la notificación para directorios importantes.
+bin dir change or directory rename
+Cambiar la notificación para directorios importantes.
+bin dir change or directory rename
+Cambiar la notificación para directorios importantes.
+bin dir change or directory rename
+Cambiar la notificación para directorios importantes.
+bin dir change or directory rename
+Cambiar la notificación para directorios importantes.
+bin dir change or directory rename
+Cambiar la notificación para directorios importantes.
+bin dir change or directory rename
+Cambiar la notificación para directorios importantes.
+bin dir change or directory rename
+Cambiar la notificación para directorios importantes.
+bin dir change or directory rename
+Cambiar la notificación para directorios importantes.
+bin dir change or directory rename
+Cambiar la notificación para directorios importantes.
+bin dir change or directory rename
+Cambiar la notificación para directorios importantes.
+bin dir change or directory rename
+Cambiar la notificación para directorios importantes.
+bin dir change or directory rename
+Cambiar la notificación para directorios importantes.
+bin dir change or directory rename
+Cambiar la notificación para directorios importantes.
+bin dir change or directory rename
+Cambiar la notificación para directorios importantes.
+bin dir change or directory rename
+Cambiar la notificación para directorios importantes.
+bin dir change or directory rename
+Cambiar la notificación para directorios importantes.
+bin dir change or directory rename
+Cambiar la notificación para directorios importantes.
+bin dir change or directory rename
+Cambiar la notificación para directorios importantes.
+bin dir change or directory rename
+Cambiar la notificación para directorios importantes.
+bin dir change or directory rename
+Cambiar la notificación para directorios importantes.
+bin dir change or directory rename
+Cambiar la notificación para directorios importantes.
+bin dir change or directory rename
+Cambiar la notificación para directorios importantes.
+bin dir change or directory rename
+Cambiar la notificación para directorios importantes.
+bin dir change or directory rename
+Cambiar la notificación para directorios importantes.
+bin dir change or directory rename
+Cambiar la notificación para directorios importantes.
+bin dir change or directory rename
+Cambiar la notificación para directorios importantes.
+bin dir change or directory rename
+Cambiar la notificación para directorios importantes.
+bin dir change or directory rename
+Cambiar la notificación para directorios importantes.
+bin dir change or directory rename
+Cambiar la notificación para directorios importantes.
+bin dir change or directory rename
+Cambiar la notificación para directorios importantes.
+bin dir change or directory rename
+Cambiar la notificación para directorios importantes.
+bin dir change or directory rename
+Cambiar la notificación para directorios importantes.
+bin dir change or directory rename
+Cambiar la notificación para directorios importantes.
+bin dir change or directory rename
+Cambiar la notificación para directorios importantes.
+bin dir change or directory rename
+Cambiar la notificación para directorios importantes.
+bin dir change or directory rename
+Cambiar la notificación para directorios importantes.
+bin dir change or directory rename
+Cambiar la notificación para directorios importantes.
+bin dir change or directory rename
+Cambiar la notificación para directorios importantes.
+bin dir change or directory rename
+Cambiar la notificación para directorios importantes.
+bin dir change or directory rename
+Cambiar la notificación para directorios importantes.
+bin dir change or directory rename
+Cambiar la notificación para directorios importantes.
+bin dir change or directory rename
+Cambiar la notificación para directorios importantes.
+bin dir change or directory rename
+Cambiar la notificación para directorios importantes.
+bin dir change or directory rename
+Cambiar la notificación para directorios importantes.
+bin dir change or directory rename
+Cambiar la notificación para directorios importantes.
+bin dir change or directory rename
+Cambiar la notificación para directorios importantes.
+bin dir change or directory rename
+Cambiar la notificación para directorios importantes.
+bin dir change or directory rename
+Cambiar la notificación para directorios importantes.
+bin dir change or directory rename
+Cambiar la notificación para directorios importantes.
+bin dir change or directory rename
+Cambiar la notificación para directorios importantes.
+bin dir change or directory rename
+Cambiar la notificación para directorios importantes.
+bin dir change or directory rename
+Cambiar la notificación para directorios importantes.
+bin dir change or directory rename
+Cambiar la notificación para directorios importantes.
+bin dir change or directory rename
+Cambiar la notificación para directorios importantes.
+bin dir change or directory rename
+Cambiar la notificación para directorios importantes.
+bin dir change or directory rename
+Cambiar la notificación para directorios importantes.
+bin dir change or directory rename
+Cambiar la notificación para directorios importantes.
+bin dir change or directory rename
+Cambiar la notificación para directorios importantes.
+bin dir change or directory rename
+Cambiar la notificación para directorios importantes.
+bin dir change or directory rename
+Cambiar la notificación para directorios importantes.
+bin dir change or directory rename
+Cambiar la notificación para directorios importantes.
+bin dir change or directory rename
+Cambiar la notificación para directorios importantes.
+bin dir change or directory rename
+Cambiar la notificación para directorios importantes.
+bin dir change or directory rename
+Cambiar la notificación para directorios importantes.
+bin dir change or directory rename
+Cambiar la notificación para directorios importantes.
+bin dir change or directory rename
+Cambiar la notificación para directorios importantes.
+bin dir change or directory rename
+Cambiar la notificación para directorios importantes.
+bin dir change or directory rename
+Cambiar la notificación para directorios importantes.
+bin dir change or directory rename
+Cambiar la notificación para directorios importantes.
+bin dir change or directory rename
+Cambiar la notificación para directorios importantes.
+bin dir change or directory rename
+Cambiar la notificación para directorios importantes.
+bin dir change or directory rename
+Cambiar la notificación para directorios importantes.
+bin dir change or directory rename
+Cambiar la notificación para directorios importantes.
+bin dir change or directory rename
+Cambiar la notificación para directorios importantes.
+Overwhelming Change Notification in bin
+Cambiar la notificación para directorios importantes.
+bin dir change or directory rename
+Cambiar la notificación para directorios importantes.
+bin dir change or directory rename
+Cambiar la notificación para directorios importantes.
+bin dir change or directory rename
+Cambiar la notificación para directorios importantes.
+bin dir change or directory rename
+Cambiar la notificación para directorios importantes.
+bin dir change or directory rename
+Cambiar la notificación para directorios importantes.
+bin dir change or directory rename
+Cambiar la notificación para directorios importantes.
+bin dir change or directory rename
+Cambiar la notificación para directorios importantes.
+bin dir change or directory rename
+Cambiar la notificación para directorios importantes.
+bin dir change or directory rename
+Cambiar la notificación para directorios importantes.
+bin dir change or directory rename
+Cambiar la notificación para directorios importantes.
+bin dir change or directory rename
+Cambiar la notificación para directorios importantes.
+bin dir change or directory rename
+Cambiar la notificación para directorios importantes.
+bin dir change or directory rename
+Cambiar la notificación para directorios importantes.
+bin dir change or directory rename
+Cambiar la notificación para directorios importantes.
+bin dir change or directory rename
+Cambiar la notificación para directorios importantes.
+bin dir change or directory rename
+Cambiar la notificación para directorios importantes.
+bin dir change or directory rename
+Cambiar la notificación para directorios importantes.
+bin dir change or directory rename
+Cambiar la notificación para directorios importantes.
+bin dir change or directory rename
+Cambiar la notificación para directorios importantes.
+bin dir change or directory rename
+Cambiar la notificación para directorios importantes.
+bin dir change or directory rename
+Cambiar la notificación para directorios importantes.
+bin dir change or directory rename
+Cambiar la notificación para directorios importantes.
+bin dir change or directory rename
+Cambiar la notificación para directorios importantes.
+bin dir change or directory rename
+Cambiar la notificación para directorios importantes.
+bin dir change or directory rename
+Cambiar la notificación para directorios importantes.
+bin dir change or directory rename
+Cambiar la notificación para directorios importantes.
+bin dir change or directory rename
+Cambiar la notificación para directorios importantes.
+bin dir change or directory rename
+Cambiar la notificación para directorios importantes.
+bin dir change or directory rename
+Cambiar la notificación para directorios importantes.
+bin dir change or directory rename
+Cambiar la notificación para directorios importantes.
+bin dir change or directory rename
+Cambiar la notificación para directorios importantes.
+bin dir change or directory rename
+Cambiar la notificación para directorios importantes.
+bin dir change or directory rename
+Cambiar la notificación para directorios importantes.
+bin dir change or directory rename
+Cambiar la notificación para directorios importantes.
+bin dir change or directory rename
+Cambiar la notificación para directorios importantes.
+bin dir change or directory rename
+Cambiar la notificación para directorios importantes.
+bin dir change or directory rename
+Cambiar la notificación para directorios importantes.
+bin dir change or directory rename
+Cambiar la notificación para directorios importantes.
+bin dir change or directory rename
+Cambiar la notificación para directorios importantes.
+bin dir change or directory rename
+Cambiar la notificación para directorios importantes.
+bin dir change or directory rename
+Cambiar la notificación para directorios importantes.
+bin dir change or directory rename
+Cambiar la notificación para directorios importantes.
+bin dir change or directory rename
+Cambiar la notificación para directorios importantes.
+bin dir change or directory rename
+Cambiar la notificación para directorios importantes.
+bin dir change or directory rename
+Cambiar la notificación para directorios importantes.
+bin dir change or directory rename
+Cambiar la notificación para directorios importantes.
+bin dir change or directory rename
+Cambiar la notificación para directorios importantes.
+bin dir change or directory rename
+Cambiar la notificación para directorios importantes.
+bin dir change or directory rename
+Cambiar la notificación para directorios importantes.
+bin dir change or directory rename
+Cambiar la notificación para directorios importantes.
+bin dir change or directory rename
+Cambiar la notificación para directorios importantes.
+bin dir change or directory rename
+Cambiar la notificación para directorios importantes.
+bin dir change or directory rename
+Cambiar la notificación para directorios importantes.
+bin dir change or directory rename
+Cambiar la notificación para directorios importantes.
+bin dir change or directory rename
+Cambiar la notificación para directorios importantes.
+bin dir change or directory rename
+Cambiar la notificación para directorios importantes.
+bin dir change or directory rename
+Cambiar la notificación para directorios importantes.
+bin dir change or directory rename
+Cambiar la notificación para directorios importantes.
+bin dir change or directory rename
+Cambiar la notificación para directorios importantes.
+bin dir change or directory rename
+Cambiar la notificación para directorios importantes.
+bin dir change or directory rename
+Cambiar la notificación para directorios importantes.
+bin dir change or directory rename
+Cambiar la notificación para directorios importantes.
+bin dir change or directory rename
+Cambiar la notificación para directorios importantes.
+bin dir change or directory rename
+Cambiar la notificación para directorios importantes.
+bin dir change or directory rename
+Cambiar la notificación para directorios importantes.
+bin dir change or directory rename
+HostingEnvironment originó el cierre
+
+_shutDownStack=   en System.Environment.GetStackTrace(Exception e, Boolean needFileInfo)
+   en System.Environment.get_StackTrace()
+   en System.Web.Hosting.HostingEnvironment.InitiateShutdownInternal()
+   en System.Web.Hosting.HostingEnvironment.InitiateShutdownWithoutDemand()
+   en System.Web.HttpRuntime.ShutdownAppDomain(String stackTrace)
+   en System.Web.HttpRuntime.OnCriticalDirectoryChange(Object sender, FileChangeEvent e)
+   en System.Web.FileChangesMonitor.OnCriticaldirChange(Object sender, FileChangeEvent e)
+   en System.Web.DirectoryMonitor.FireNotifications()
+   en System.Web.Util.WorkItem.CallCallbackWithAssert(WorkItemCallback callback)
+   en System.Web.Util.WorkItem.OnQueueUserWorkItemCompletion(Object state)
+   en System.Threading.QueueUserWorkItemCallback.WaitCallback_Context(Object state)
+   en System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   en System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   en System.Threading.QueueUserWorkItemCallback.System.Threading.IThreadPoolWorkItem.ExecuteWorkItem()
+   en System.Threading.ThreadPoolWorkQueue.Dispatch()
+   en System.Threading._ThreadPoolWaitCallback.PerformWaitCallback()
+ 2015-12-08 18:48:08,693 [P4508/D3/T26] INFO  Umbraco.Core.CoreBootManager - Umbraco 7.3.3 application starting on NOTEBOOK-ACER
+ 2015-12-08 18:48:08,724 [P4508/D3/T26] INFO  Umbraco.Core.PluginManager - Determining hash of code files on disk
+ 2015-12-08 18:48:08,755 [P4508/D3/T26] INFO  Umbraco.Core.PluginManager - Hash determined (took 27ms)
+ 2015-12-08 18:48:09,012 [P4508/D3/T26] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.IApplicationStartupHandler
+ 2015-12-08 18:48:09,669 [P4508/D3/T26] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.IApplicationStartupHandler, found 0 (took 657ms)
+ 2015-12-08 18:48:09,694 [P4508/D3/T26] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter
+ 2015-12-08 18:48:09,722 [P4508/D3/T26] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter, found 0 (took 28ms)
+ 2015-12-08 18:48:09,723 [P4508/D3/T26] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyValueConverter
+ 2015-12-08 18:48:09,762 [P4508/D3/T26] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyValueConverter, found 0 (took 38ms)
+ 2015-12-08 18:48:09,787 [P4508/D3/T26] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.Mvc.SurfaceController
+ 2015-12-08 18:48:09,818 [P4508/D3/T26] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.Mvc.SurfaceController, found 0 (took 30ms)
+ 2015-12-08 18:48:09,822 [P4508/D3/T26] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.WebApi.UmbracoApiController
+ 2015-12-08 18:48:09,868 [P4508/D3/T26] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.WebApi.UmbracoApiController, found 0 (took 45ms)
+ 2015-12-08 18:48:09,986 [P4508/D3/T26] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.Media.IThumbnailProvider
+ 2015-12-08 18:48:10,016 [P4508/D3/T26] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.Media.IThumbnailProvider, found 0 (took 30ms)
+ 2015-12-08 18:48:10,032 [P4508/D3/T26] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.Media.IImageUrlProvider
+ 2015-12-08 18:48:10,064 [P4508/D3/T26] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.Media.IImageUrlProvider, found 0 (took 32ms)
+ 2015-12-08 18:48:11,594 [P4508/D3/T26] INFO  Umbraco.Core.DatabaseContext - CanConnect = True
+ 2015-12-08 18:48:12,123 [P4508/D3/T26] INFO  Umbraco.Core.DatabaseContext - CanConnect = True
+ 2015-12-08 18:48:12,187 [P4508/D3/T26] INFO  Umbraco.Core.DatabaseContext - CanConnect = True
+ 2015-12-08 18:48:12,319 [P4508/D3/T26] INFO  Umbraco.Web.Cache.CacheRefresherEventHandler - Initializing Umbraco internal event handlers for cache refreshing
+ 2015-12-08 18:48:12,347 [P4508/D3/T26] INFO  Umbraco.Web.Search.ExamineEvents - Initializing Examine and binding to business logic events
+ 2015-12-08 18:48:12,535 [P4508/D3/T26] INFO  Umbraco.Web.Search.ExamineEvents - Adding examine event handlers for index providers: 3
+ 2015-12-08 18:48:12,544 [P4508/D3/T26] INFO  Umbraco.Core.CoreBootManager - Umbraco application startup complete (took 3965ms)
+ 2015-12-08 18:48:14,302 [P4508/D3/T9] INFO  Umbraco.Core.Sync.ApplicationUrlHelper - ApplicationUrl: http://localhost:54276/umbraco (UmbracoModule request)
+ 2015-12-08 18:48:14,302 [P4508/D3/T7] INFO  Umbraco.Core.Sync.ApplicationUrlHelper - ApplicationUrl: http://localhost:54276/umbraco (UmbracoModule request)
+ 2015-12-08 18:48:14,336 [P4508/D3/T8] INFO  Umbraco.Core.Sync.ApplicationUrlHelper - ApplicationUrl: http://localhost:54276/umbraco (UmbracoModule request)
+ 2015-12-08 18:48:15,895 [P4508/D3/T9] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.Persistence.Mappers.BaseMapper
+ 2015-12-08 18:48:15,929 [P4508/D3/T9] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.Persistence.Mappers.BaseMapper, found 0 (took 34ms)
+ 2015-12-08 18:48:16,887 [P4508/D3/T7] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: Login attempt succeeded for username hernandemczuk@gmail.com from IP address ::1
+ 2015-12-08 18:48:16,890 [P4508/D3/T7] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: User: hernandemczuk@gmail.com logged in from IP address ::1
+ 2015-12-08 18:48:16,925 [P4508/D3/T8] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: Login attempt succeeded for username hernandemczuk@gmail.com from IP address ::1
+ 2015-12-08 18:48:16,941 [P4508/D3/T8] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: User: hernandemczuk@gmail.com logged in from IP address ::1
+ 2015-12-08 18:48:16,944 [P4508/D3/T9] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: Login attempt succeeded for username hernandemczuk@gmail.com from IP address ::1
+ 2015-12-08 18:48:16,944 [P4508/D3/T9] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: User: hernandemczuk@gmail.com logged in from IP address ::1
+ 2015-12-08 18:48:23,153 [P4508/D4/T1] INFO  Umbraco.Core.CoreBootManager - Umbraco 7.3.3 application starting on NOTEBOOK-ACER
+ 2015-12-08 18:48:23,185 [P4508/D4/T1] INFO  Umbraco.Core.PluginManager - Determining hash of code files on disk
+ 2015-12-08 18:48:23,201 [P4508/D4/T1] INFO  Umbraco.Core.PluginManager - Hash determined (took 14ms)
+ 2015-12-08 18:48:23,471 [P4508/D4/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.IApplicationStartupHandler
+ 2015-12-08 18:48:23,500 [P4508/D4/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.IApplicationStartupHandler, found 0 (took 28ms)
+ 2015-12-08 18:48:23,548 [P4508/D4/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter
+ 2015-12-08 18:48:23,564 [P4508/D4/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter, found 0 (took 16ms)
+ 2015-12-08 18:48:23,574 [P4508/D4/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyValueConverter
+ 2015-12-08 18:48:23,596 [P4508/D4/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyValueConverter, found 0 (took 21ms)
+ 2015-12-08 18:48:23,635 [P4508/D4/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.Mvc.SurfaceController
+ 2015-12-08 18:48:23,638 [P4508/D4/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.Mvc.SurfaceController, found 0 (took 2ms)
+ 2015-12-08 18:48:23,639 [P4508/D4/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.WebApi.UmbracoApiController
+ 2015-12-08 18:48:23,684 [P4508/D4/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.WebApi.UmbracoApiController, found 0 (took 44ms)
+ 2015-12-08 18:48:23,794 [P4508/D4/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.Media.IThumbnailProvider
+ 2015-12-08 18:48:23,797 [P4508/D4/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.Media.IThumbnailProvider, found 0 (took 3ms)
+ 2015-12-08 18:48:23,798 [P4508/D4/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.Media.IImageUrlProvider
+ 2015-12-08 18:48:23,800 [P4508/D4/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.Media.IImageUrlProvider, found 0 (took 1ms)
+ 2015-12-08 18:48:25,306 [P4508/D4/T1] INFO  Umbraco.Core.DatabaseContext - CanConnect = True
+ 2015-12-08 18:48:25,955 [P4508/D4/T1] INFO  Umbraco.Core.DatabaseContext - CanConnect = True
+ 2015-12-08 18:48:26,029 [P4508/D4/T1] INFO  Umbraco.Core.DatabaseContext - CanConnect = True
+ 2015-12-08 18:48:26,131 [P4508/D4/T1] INFO  Umbraco.Web.Cache.CacheRefresherEventHandler - Initializing Umbraco internal event handlers for cache refreshing
+ 2015-12-08 18:48:26,174 [P4508/D4/T1] INFO  Umbraco.Web.Search.ExamineEvents - Initializing Examine and binding to business logic events
+ 2015-12-08 18:48:26,374 [P4508/D4/T1] INFO  Umbraco.Web.Search.ExamineEvents - Adding examine event handlers for index providers: 3
+ 2015-12-08 18:48:26,400 [P4508/D4/T1] INFO  Umbraco.Core.CoreBootManager - Umbraco application startup complete (took 3365ms)
+ 2015-12-08 18:48:27,891 [P4508/D4/T7] INFO  Umbraco.Core.Sync.ApplicationUrlHelper - ApplicationUrl: http://localhost:54276/umbraco (UmbracoModule request)
+ 2015-12-08 18:48:29,312 [P4508/D4/T29] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.Trees.TreeController
+ 2015-12-08 18:48:29,393 [P4508/D4/T29] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.Trees.TreeController, found 0 (took 80ms)
+ 2015-12-08 18:48:32,450 [P4508/D4/T28] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.IApplication
+ 2015-12-08 18:48:32,476 [P4508/D4/T28] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.IApplication, found 0 (took 25ms)
+ 2015-12-08 18:48:32,624 [P4508/D4/T7] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.ITree
+ 2015-12-08 18:48:32,646 [P4508/D4/T7] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.ITree, found 0 (took 21ms)
+ 2015-12-08 18:48:32,679 [P4508/D4/T7] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.Trees.TreeController
+ 2015-12-08 18:48:32,680 [P4508/D4/T7] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.Trees.TreeController, found 0 (took 0ms)
+ 2015-12-08 18:48:32,684 [P4508/D4/T7] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.ITree
+ 2015-12-08 18:48:32,720 [P4508/D4/T7] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.ITree, found 0 (took 35ms)
+ 2015-12-08 18:48:32,787 [P4508/D4/T7] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.IAction
+ 2015-12-08 18:48:32,855 [P4508/D4/T7] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.IAction, found 0 (took 68ms)
+ 2015-12-08 18:48:34,056 [P4508/D4/T29] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.PropertyEditors.IParameterEditor
+ 2015-12-08 18:48:34,094 [P4508/D4/T29] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.PropertyEditors.IParameterEditor, found 0 (took 38ms)
+ 2015-12-08 18:48:36,856 [P4508/D4/T27] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.Persistence.Mappers.BaseMapper
+ 2015-12-08 18:48:36,872 [P4508/D4/T27] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.Persistence.Mappers.BaseMapper, found 0 (took 16ms)
+ 2015-12-08 18:48:44,363 [P4508/D3/T31] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [LogScrubber] Terminating (immediate)
+ 2015-12-08 18:48:44,363 [P4508/D3/T31] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [LogScrubber] Cancelling tasks
+ 2015-12-08 18:48:44,469 [P4508/D3/T31] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [LogScrubber] Tasks cancelled, terminated
+ 2015-12-08 18:48:44,469 [P4508/D3/T31] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledTasks] Terminating (immediate)
+ 2015-12-08 18:48:44,469 [P4508/D3/T31] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledTasks] Cancelling tasks
+ 2015-12-08 18:48:44,571 [P4508/D3/T31] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledTasks] Tasks cancelled, terminated
+ 2015-12-08 18:48:44,598 [P4508/D3/T31] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledPublishing] Terminating (immediate)
+ 2015-12-08 18:48:44,598 [P4508/D3/T31] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledPublishing] Cancelling tasks
+ 2015-12-08 18:48:44,699 [P4508/D3/T31] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledPublishing] Tasks cancelled, terminated
+ 2015-12-08 18:48:44,711 [P4508/D3/T31] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [KeepAlive] Terminating (immediate)
+ 2015-12-08 18:48:44,724 [P4508/D3/T31] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [KeepAlive] Cancelling tasks
+ 2015-12-08 18:48:44,825 [P4508/D3/T31] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [KeepAlive] Tasks cancelled, terminated
+ 2015-12-08 18:48:44,833 [P4508/D3/T28] INFO  Umbraco.Core.UmbracoApplicationBase - Application shutdown. Details: BinDirChangeOrDirectoryRename
+
+_shutDownMessage=Cambiar la notificación para directorios importantes.
+bin dir change or directory rename
+HostingEnvironment initiated shutdown
+Cambiar la notificación para directorios importantes.
+bin dir change or directory rename
+Cambiar la notificación para directorios importantes.
+bin dir change or directory rename
+Cambiar la notificación para directorios importantes.
+bin dir change or directory rename
+Cambiar la notificación para directorios importantes.
+bin dir change or directory rename
+Cambiar la notificación para directorios importantes.
+bin dir change or directory rename
+Cambiar la notificación para directorios importantes.
+bin dir change or directory rename
+Cambiar la notificación para directorios importantes.
+bin dir change or directory rename
+Cambiar la notificación para directorios importantes.
+bin dir change or directory rename
+Cambiar la notificación para directorios importantes.
+bin dir change or directory rename
+Cambiar la notificación para directorios importantes.
+bin dir change or directory rename
+Cambiar la notificación para directorios importantes.
+bin dir change or directory rename
+Cambiar la notificación para directorios importantes.
+bin dir change or directory rename
+Cambiar la notificación para directorios importantes.
+bin dir change or directory rename
+Cambiar la notificación para directorios importantes.
+bin dir change or directory rename
+Cambiar la notificación para directorios importantes.
+bin dir change or directory rename
+Cambiar la notificación para directorios importantes.
+bin dir change or directory rename
+Cambiar la notificación para directorios importantes.
+bin dir change or directory rename
+Cambiar la notificación para directorios importantes.
+bin dir change or directory rename
+Cambiar la notificación para directorios importantes.
+bin dir change or directory rename
+Cambiar la notificación para directorios importantes.
+bin dir change or directory rename
+Cambiar la notificación para directorios importantes.
+bin dir change or directory rename
+Cambiar la notificación para directorios importantes.
+bin dir change or directory rename
+Cambiar la notificación para directorios importantes.
+bin dir change or directory rename
+Cambiar la notificación para directorios importantes.
+bin dir change or directory rename
+Cambiar la notificación para directorios importantes.
+bin dir change or directory rename
+Cambiar la notificación para directorios importantes.
+bin dir change or directory rename
+Cambiar la notificación para directorios importantes.
+bin dir change or directory rename
+Cambiar la notificación para directorios importantes.
+bin dir change or directory rename
+Cambiar la notificación para directorios importantes.
+bin dir change or directory rename
+Cambiar la notificación para directorios importantes.
+bin dir change or directory rename
+Cambiar la notificación para directorios importantes.
+bin dir change or directory rename
+Cambiar la notificación para directorios importantes.
+bin dir change or directory rename
+Cambiar la notificación para directorios importantes.
+bin dir change or directory rename
+Cambiar la notificación para directorios importantes.
+bin dir change or directory rename
+Cambiar la notificación para directorios importantes.
+bin dir change or directory rename
+Cambiar la notificación para directorios importantes.
+bin dir change or directory rename
+Cambiar la notificación para directorios importantes.
+bin dir change or directory rename
+Cambiar la notificación para directorios importantes.
+bin dir change or directory rename
+Change in C:\Users\HernanMartin\AppData\Local\Temp\Temporary ASP.NET Files\vs\898ca97f\f59c4a8b\hash\hash.web
+Change in C:\Users\HernanMartin\AppData\Local\Temp\Temporary ASP.NET Files\vs\898ca97f\f59c4a8b\hash\hash.web
+HostingEnvironment originó el cierre
+
+_shutDownStack=   en System.Environment.GetStackTrace(Exception e, Boolean needFileInfo)
+   en System.Environment.get_StackTrace()
+   en System.Web.Hosting.HostingEnvironment.InitiateShutdownInternal()
+   en System.Web.Hosting.HostingEnvironment.InitiateShutdownWithoutDemand()
+   en System.Web.HttpRuntime.ShutdownAppDomain(String stackTrace)
+   en System.Web.HttpRuntime.OnCriticalDirectoryChange(Object sender, FileChangeEvent e)
+   en System.Web.FileChangesMonitor.OnCriticaldirChange(Object sender, FileChangeEvent e)
+   en System.Web.DirectoryMonitor.FireNotifications()
+   en System.Web.Util.WorkItem.CallCallbackWithAssert(WorkItemCallback callback)
+   en System.Web.Util.WorkItem.OnQueueUserWorkItemCompletion(Object state)
+   en System.Threading.QueueUserWorkItemCallback.WaitCallback_Context(Object state)
+   en System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   en System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   en System.Threading.QueueUserWorkItemCallback.System.Threading.IThreadPoolWorkItem.ExecuteWorkItem()
+   en System.Threading.ThreadPoolWorkQueue.Dispatch()
+   en System.Threading._ThreadPoolWaitCallback.PerformWaitCallback()
+ 2015-12-08 18:48:46,883 [P4508/D4/T11] INFO  umbraco.content - Load Xml from file...
+ 2015-12-08 18:48:46,885 [P4508/D4/T11] INFO  umbraco.content - Loaded Xml from file.
+ 2015-12-08 18:49:29,803 [P4508/D4/T21] INFO  umbraco.BusinessLogic.Log - Log scrubbed.  Removed all items older than 2015-12-07 18:49:29
+ 2015-12-08 18:56:08,947 [P4508/D4/T30] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.PropertyEditors.IParameterEditor
+ 2015-12-08 18:56:08,947 [P4508/D4/T30] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.PropertyEditors.IParameterEditor, found 0 (took 0ms)
+ 2015-12-08 18:56:08,982 [P4508/D4/T30] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.cms.businesslogic.macro.IMacroEngine
+ 2015-12-08 18:56:09,006 [P4508/D4/T30] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.cms.businesslogic.macro.IMacroEngine, found 0 (took 24ms)
+ 2015-12-08 19:13:25,729 [P4508/D4/T16] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.ICacheRefresher
+ 2015-12-08 19:13:25,804 [P4508/D4/T16] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.ICacheRefresher, found 0 (took 75ms)
+ 2015-12-08 19:15:22,079 [P4508/D4/T29] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Sistema de Gestión para un Negocio' with Id '1087' has been published.
+ 2015-12-08 19:15:26,879 [P4508/D4/T24] INFO  umbraco.content - Save Xml to file...
+ 2015-12-08 19:15:26,965 [P4508/D4/T12] INFO  umbraco.content - Saved Xml to file.
+ 2015-12-08 19:16:03,704 [P4508/D4/T10] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.Trees.TreeController
+ 2015-12-08 19:16:03,704 [P4508/D4/T10] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.Trees.TreeController, found 0 (took 0ms)
+ 2015-12-08 19:33:24,140 [P4508/D4/T18] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Sistema de Gestión para un Negocio' with Id '1087' has been published.
+ 2015-12-08 19:33:28,308 [P4508/D4/T31] INFO  umbraco.content - Save Xml to file...
+ 2015-12-08 19:33:28,470 [P4508/D4/T19] INFO  umbraco.content - Saved Xml to file.
+ 2015-12-08 19:36:15,589 [P4508/D4/T31] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Sistema de Gestión para un Negocio' with Id '1087' has been published.
+ 2015-12-08 19:36:19,713 [P4508/D4/T18] INFO  umbraco.content - Save Xml to file...
+ 2015-12-08 19:36:19,734 [P4508/D4/T19] INFO  umbraco.content - Saved Xml to file.
+ 2015-12-08 19:51:11,224 [P4508/D4/T36] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Sistema de Gestión para un Negocio' with Id '1087' has been published.
+ 2015-12-08 19:51:15,309 [P4508/D4/T35] INFO  umbraco.content - Save Xml to file...
+ 2015-12-08 19:51:15,343 [P4508/D4/T47] INFO  umbraco.content - Saved Xml to file.
+ 2015-12-08 20:01:29,613 [P4508/D4/T42] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Sistema de Gestión para un Negocio' with Id '1087' has been published.
+ 2015-12-08 20:01:33,665 [P4508/D4/T17] INFO  umbraco.content - Save Xml to file...
+ 2015-12-08 20:01:33,702 [P4508/D4/T48] INFO  umbraco.content - Saved Xml to file.
+ 2015-12-08 20:11:07,803 [P4508/D4/T36] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Sistema de Gestión para un Negocio' with Id '1087' has been published.
+ 2015-12-08 20:11:11,892 [P4508/D4/T42] INFO  umbraco.content - Save Xml to file...
+ 2015-12-08 20:11:11,912 [P4508/D4/T57] INFO  umbraco.content - Saved Xml to file.
+ 2015-12-08 20:18:10,707 [P4508/D4/T41] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Sistema de Gestión para un Negocio' with Id '1087' has been published.
+ 2015-12-08 20:18:14,775 [P4508/D4/T40] INFO  umbraco.content - Save Xml to file...
+ 2015-12-08 20:18:14,822 [P4508/D4/T63] INFO  umbraco.content - Saved Xml to file.
+ 2015-12-08 20:27:40,412 [P4508/D4/T55] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Sistema de Gestión para un Negocio' with Id '1087' has been published.
+ 2015-12-08 20:27:44,482 [P4508/D4/T41] INFO  umbraco.content - Save Xml to file...
+ 2015-12-08 20:27:44,497 [P4508/D4/T62] INFO  umbraco.content - Saved Xml to file.
+ 2015-12-08 20:33:50,769 [P4508/D4/T50] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Sistema de Gestión para un Negocio' with Id '1087' has been published.
+ 2015-12-08 20:33:54,837 [P4508/D4/T53] INFO  umbraco.content - Save Xml to file...
+ 2015-12-08 20:33:54,837 [P4508/D4/T49] INFO  umbraco.content - Saved Xml to file.
+ 2015-12-08 20:36:12,778 [P4508/D4/T53] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Sistema de Gestión para un Negocio' with Id '1087' has been published.
+ 2015-12-08 20:36:16,862 [P4508/D4/T36] INFO  umbraco.content - Save Xml to file...
+ 2015-12-08 20:36:16,878 [P4508/D4/T63] INFO  umbraco.content - Saved Xml to file.
+ 2015-12-08 20:37:38,344 [P4508/D4/T20] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Sistema de Gestión para un Negocio' with Id '1087' has been published.
+ 2015-12-08 20:37:42,443 [P4508/D4/T53] INFO  umbraco.content - Save Xml to file...
+ 2015-12-08 20:37:42,443 [P4508/D4/T64] INFO  umbraco.content - Saved Xml to file.
+ 2015-12-08 20:37:48,067 [P4508/D4/T20] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Sistema de Gestión para un Negocio' with Id '1087' has been published.
+ 2015-12-08 20:37:52,143 [P4508/D4/T50] INFO  umbraco.content - Save Xml to file...
+ 2015-12-08 20:37:52,159 [P4508/D4/T64] INFO  umbraco.content - Saved Xml to file.
+ 2015-12-08 20:40:57,098 [P4508/D4/T36] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Sistema de Gestión para un Negocio' with Id '1087' has been published.
+ 2015-12-08 20:41:01,212 [P4508/D4/T52] INFO  umbraco.content - Save Xml to file...
+ 2015-12-08 20:41:01,212 [P4508/D4/T61] INFO  umbraco.content - Saved Xml to file.
+ 2015-12-08 20:41:39,517 [P4508/D4/T45] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Sistema de Gestión para un Negocio' with Id '1087' has been published.
+ 2015-12-08 20:41:43,603 [P4508/D4/T56] INFO  umbraco.content - Save Xml to file...
+ 2015-12-08 20:41:43,665 [P4508/D4/T62] INFO  umbraco.content - Saved Xml to file.
+ 2015-12-08 20:42:01,949 [P4508/D4/T57] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Sistema de Gestión para un Negocio' with Id '1087' has been published.
+ 2015-12-08 20:42:06,042 [P4508/D4/T52] INFO  umbraco.content - Save Xml to file...
+ 2015-12-08 20:42:06,056 [P4508/D4/T49] INFO  umbraco.content - Saved Xml to file.
+ 2015-12-08 20:45:33,482 [P4508/D4/T56] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Sistema de Gestión para un Negocio' with Id '1087' has been published.
+ 2015-12-08 20:45:37,728 [P4508/D4/T45] INFO  umbraco.content - Save Xml to file...
+ 2015-12-08 20:45:37,751 [P4508/D4/T32] INFO  umbraco.content - Saved Xml to file.
+ 2015-12-08 20:49:41,642 [P4508/D4/T23] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Sistema de Gestión para un Negocio' with Id '1087' has been published.
+ 2015-12-08 20:49:45,951 [P4508/D4/T12] INFO  umbraco.content - Save Xml to file...
+ 2015-12-08 20:49:45,969 [P4508/D4/T68] INFO  umbraco.content - Saved Xml to file.
+ 2015-12-08 20:52:15,891 [P4508/D4/T47] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Sistema de Gestión para un Negocio' with Id '1087' has been published.
+ 2015-12-08 20:52:19,962 [P4508/D4/T65] INFO  umbraco.content - Save Xml to file...
+ 2015-12-08 20:52:19,975 [P4508/D4/T62] INFO  umbraco.content - Saved Xml to file.
+ 2015-12-08 20:54:42,655 [P4508/D4/T33] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Sistema de Gestión para un Negocio' with Id '1087' has been published.
+ 2015-12-08 20:54:46,708 [P4508/D4/T52] INFO  umbraco.content - Save Xml to file...
+ 2015-12-08 20:54:46,759 [P4508/D4/T51] INFO  umbraco.content - Saved Xml to file.
+ 2015-12-08 20:58:44,650 [P4508/D4/T12] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Sistema de Gestión para un Negocio' with Id '1087' has been published.
+ 2015-12-08 20:58:48,721 [P4508/D4/T37] INFO  umbraco.content - Save Xml to file...
+ 2015-12-08 20:58:48,737 [P4508/D4/T17] INFO  umbraco.content - Saved Xml to file.
+ 2015-12-08 21:00:58,572 [P4508/D4/T37] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Sistema de Gestión para un Negocio' with Id '1087' has been published.
+ 2015-12-08 21:01:02,745 [P4508/D4/T52] INFO  umbraco.content - Save Xml to file...
+ 2015-12-08 21:01:02,764 [P4508/D4/T53] INFO  umbraco.content - Saved Xml to file.
+ 2015-12-08 21:07:04,069 [P4508/D4/T60] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Sistema de Gestión para un Negocio' with Id '1087' has been published.
+ 2015-12-08 21:07:08,206 [P4508/D4/T37] INFO  umbraco.content - Save Xml to file...
+ 2015-12-08 21:07:08,228 [P4508/D4/T57] INFO  umbraco.content - Saved Xml to file.
+ 2015-12-08 21:25:41,273 [P4508/D4/T52] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Sistema de Gestión para un Negocio' with Id '1087' has been published.
+ 2015-12-08 21:25:45,359 [P4508/D4/T20] INFO  umbraco.content - Save Xml to file...
+ 2015-12-08 21:25:45,368 [P4508/D4/T14] INFO  umbraco.content - Saved Xml to file.
+ 2015-12-08 21:27:28,510 [P4508/D4/T61] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Sistema de Gestión para un Negocio' with Id '1087' has been published.
+ 2015-12-08 21:27:32,607 [P4508/D4/T22] INFO  umbraco.content - Save Xml to file...
+ 2015-12-08 21:27:32,623 [P4508/D4/T64] INFO  umbraco.content - Saved Xml to file.
+ 2015-12-08 21:32:27,819 [P4508/D4/T20] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Sistema de Gestión para un Negocio' with Id '1087' has been published.
+ 2015-12-08 21:32:31,885 [P4508/D4/T37] INFO  umbraco.content - Save Xml to file...
+ 2015-12-08 21:32:32,020 [P4508/D4/T56] INFO  umbraco.content - Saved Xml to file.
+ 2015-12-08 21:35:11,738 [P4508/D4/T37] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Sistema de Gestión para un Negocio' with Id '1087' has been published.
+ 2015-12-08 21:35:15,881 [P4508/D4/T20] INFO  umbraco.content - Save Xml to file...
+ 2015-12-08 21:35:16,026 [P4508/D4/T20] INFO  umbraco.content - Saved Xml to file.
+ 2015-12-08 21:36:37,118 [P4508/D4/T32] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Sistema de Gestión para un Negocio' with Id '1087' has been published.
+ 2015-12-08 21:36:41,218 [P4508/D4/T20] INFO  umbraco.content - Save Xml to file...
+ 2015-12-08 21:36:41,229 [P4508/D4/T44] INFO  umbraco.content - Saved Xml to file.
+ 2015-12-08 21:38:13,845 [P4508/D4/T38] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Sistema de Gestión para un Negocio' with Id '1087' has been published.
+ 2015-12-08 21:38:17,966 [P4508/D4/T41] INFO  umbraco.content - Save Xml to file...
+ 2015-12-08 21:38:17,976 [P4508/D4/T36] INFO  umbraco.content - Saved Xml to file.
+ 2015-12-08 21:40:39,004 [P4508/D4/T41] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Sistema de Gestión para un Negocio' with Id '1087' has been published.
+ 2015-12-08 21:40:43,198 [P4508/D4/T22] INFO  umbraco.content - Save Xml to file...
+ 2015-12-08 21:40:43,214 [P4508/D4/T36] INFO  umbraco.content - Saved Xml to file.
+ 2015-12-08 21:42:07,288 [P4508/D4/T41] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Sistema de Gestión para un Negocio' with Id '1087' has been published.
+ 2015-12-08 21:42:11,399 [P4508/D4/T37] INFO  umbraco.content - Save Xml to file...
+ 2015-12-08 21:42:11,467 [P4508/D4/T34] INFO  umbraco.content - Saved Xml to file.
+ 2015-12-08 21:43:17,124 [P4508/D4/T32] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Sistema de Gestión para un Negocio' with Id '1087' has been published.
+ 2015-12-08 21:43:21,200 [P4508/D4/T12] INFO  umbraco.content - Save Xml to file...
+ 2015-12-08 21:43:21,233 [P4508/D4/T12] INFO  umbraco.content - Saved Xml to file.
+ 2015-12-08 21:43:33,417 [P4508/D4/T9] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Sistema de Gestión para un Negocio' with Id '1087' has been published.
+ 2015-12-08 21:43:37,101 [P4508/D4/T32] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.Trees.TreeController
+ 2015-12-08 21:43:37,101 [P4508/D4/T32] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.Trees.TreeController, found 0 (took 0ms)
+ 2015-12-08 21:43:37,640 [P4508/D4/T12] INFO  umbraco.content - Save Xml to file...
+ 2015-12-08 21:43:37,671 [P4508/D4/T14] INFO  umbraco.content - Saved Xml to file.
+ 2015-12-08 21:45:08,371 [P4508/D4/T32] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Sistema de Gestión para un Negocio' with Id '1087' has been published.
+ 2015-12-08 21:45:12,477 [P4508/D4/T41] INFO  umbraco.content - Save Xml to file...
+ 2015-12-08 21:45:12,509 [P4508/D4/T56] INFO  umbraco.content - Saved Xml to file.
+ 2015-12-08 21:51:39,814 [P4508/D4/T9] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Sistema de Gestión para un Negocio' with Id '1087' has been published.
+ 2015-12-08 21:51:43,894 [P4508/D4/T37] INFO  umbraco.content - Save Xml to file...
+ 2015-12-08 21:51:44,021 [P4508/D4/T58] INFO  umbraco.content - Saved Xml to file.
+ 2015-12-08 22:01:02,103 [P4508/D4/T38] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.Trees.TreeController
+ 2015-12-08 22:01:02,104 [P4508/D4/T38] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.Trees.TreeController, found 0 (took 0ms)
+ 2015-12-08 22:18:09,836 [P5056/D2/T1] INFO  Umbraco.Core.CoreBootManager - Umbraco 7.3.3 application starting on NOTEBOOK-ACER
+ 2015-12-08 22:18:10,029 [P5056/D2/T1] INFO  Umbraco.Core.PluginManager - Determining hash of code files on disk
+ 2015-12-08 22:18:10,060 [P5056/D2/T1] INFO  Umbraco.Core.PluginManager - Hash determined (took 29ms)
+ 2015-12-08 22:18:10,371 [P5056/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.IApplicationStartupHandler
+ 2015-12-08 22:18:10,887 [P5056/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.IApplicationStartupHandler, found 0 (took 515ms)
+ 2015-12-08 22:18:11,307 [P5056/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter
+ 2015-12-08 22:18:11,312 [P5056/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter, found 0 (took 4ms)
+ 2015-12-08 22:18:11,312 [P5056/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyValueConverter
+ 2015-12-08 22:18:11,314 [P5056/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyValueConverter, found 0 (took 2ms)
+ 2015-12-08 22:18:11,353 [P5056/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.Mvc.SurfaceController
+ 2015-12-08 22:18:11,354 [P5056/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.Mvc.SurfaceController, found 0 (took 2ms)
+ 2015-12-08 22:18:11,355 [P5056/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.WebApi.UmbracoApiController
+ 2015-12-08 22:18:11,371 [P5056/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.WebApi.UmbracoApiController, found 0 (took 15ms)
+ 2015-12-08 22:18:12,541 [P5056/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.Media.IThumbnailProvider
+ 2015-12-08 22:18:12,544 [P5056/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.Media.IThumbnailProvider, found 0 (took 3ms)
+ 2015-12-08 22:18:12,545 [P5056/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.Media.IImageUrlProvider
+ 2015-12-08 22:18:12,553 [P5056/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.Media.IImageUrlProvider, found 0 (took 8ms)
+ 2015-12-08 22:18:14,524 [P5056/D2/T1] INFO  Umbraco.Core.DatabaseContext - CanConnect = True
+ 2015-12-08 22:18:15,162 [P5056/D2/T1] INFO  Umbraco.Core.DatabaseContext - CanConnect = True
+ 2015-12-08 22:18:15,431 [P5056/D2/T1] INFO  Umbraco.Core.DatabaseContext - CanConnect = True
+ 2015-12-08 22:18:15,567 [P5056/D2/T1] INFO  Umbraco.Web.Cache.CacheRefresherEventHandler - Initializing Umbraco internal event handlers for cache refreshing
+ 2015-12-08 22:18:15,876 [P5056/D2/T1] INFO  Umbraco.Web.Search.ExamineEvents - Initializing Examine and binding to business logic events
+ 2015-12-08 22:18:16,072 [P5056/D2/T1] INFO  Umbraco.Web.Search.ExamineEvents - Adding examine event handlers for index providers: 3
+ 2015-12-08 22:18:16,187 [P5056/D2/T1] INFO  Umbraco.Core.CoreBootManager - Umbraco application startup complete (took 6487ms)
+ 2015-12-08 22:18:23,648 [P5056/D2/T8] INFO  Umbraco.Core.Sync.ApplicationUrlHelper - ApplicationUrl: http://localhost:54276/umbraco (UmbracoModule request)
+ 2015-12-08 22:18:24,568 [P5056/D2/T8] INFO  umbraco.content - Load Xml from file...
+ 2015-12-08 22:18:24,573 [P5056/D2/T8] INFO  umbraco.content - Loaded Xml from file.
+ 2015-12-08 22:18:25,280 [P5056/D2/T8] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.Persistence.Mappers.BaseMapper
+ 2015-12-08 22:18:25,285 [P5056/D2/T8] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.Persistence.Mappers.BaseMapper, found 0 (took 4ms)
+ 2015-12-08 22:18:28,295 [P5056/D2/T8] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.PropertyEditors.IParameterEditor
+ 2015-12-08 22:18:28,298 [P5056/D2/T8] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.PropertyEditors.IParameterEditor, found 0 (took 3ms)
+ 2015-12-08 22:18:30,332 [P5056/D2/T8] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.PropertyEditors.IParameterEditor
+ 2015-12-08 22:18:30,332 [P5056/D2/T8] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.PropertyEditors.IParameterEditor, found 0 (took 0ms)
+ 2015-12-08 22:18:30,409 [P5056/D2/T8] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.cms.businesslogic.macro.IMacroEngine
+ 2015-12-08 22:18:30,430 [P5056/D2/T8] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.cms.businesslogic.macro.IMacroEngine, found 0 (took 21ms)
+ 2015-12-08 22:19:31,831 [P5056/D2/T8] INFO  umbraco.BusinessLogic.Log - Log scrubbed.  Removed all items older than 2015-12-07 22:19:31
+ 2015-12-08 22:22:37,754 [P5056/D2/T5] INFO  Umbraco.Core.Logging.OwinLogger - Event Id: 0, state: User logged will be logged out due to timeout: hernandemczuk@gmail.com, IP Address: ::1
+ 2015-12-08 22:25:33,998 [P5056/D2/T5] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: Login attempt succeeded for username hernandemczuk@gmail.com from IP address ::1
+ 2015-12-08 22:25:34,003 [P5056/D2/T5] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: User: hernandemczuk@gmail.com logged in from IP address ::1
+ 2015-12-08 22:25:34,417 [P5056/D2/T27] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.IApplication
+ 2015-12-08 22:25:34,420 [P5056/D2/T27] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.IApplication, found 0 (took 3ms)
+ 2015-12-08 22:26:13,470 [P5056/D2/T5] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.Trees.TreeController
+ 2015-12-08 22:26:13,470 [P5056/D2/T5] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.Trees.TreeController, found 0 (took 2ms)
+ 2015-12-08 22:26:13,515 [P5056/D2/T5] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.ITree
+ 2015-12-08 22:26:13,515 [P5056/D2/T5] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.ITree, found 0 (took 2ms)
+ 2015-12-08 22:26:13,531 [P5056/D2/T5] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.Trees.TreeController
+ 2015-12-08 22:26:13,531 [P5056/D2/T5] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.Trees.TreeController, found 0 (took 0ms)
+ 2015-12-08 22:26:13,531 [P5056/D2/T5] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.ITree
+ 2015-12-08 22:26:13,547 [P5056/D2/T5] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.ITree, found 0 (took 1ms)
+ 2015-12-08 22:27:29,982 [P5056/D2/T22] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Sistema de Gestión para un Negocio' with Id '1087' has been published.
+ 2015-12-08 22:27:30,223 [P5056/D2/T22] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.ICacheRefresher
+ 2015-12-08 22:27:30,239 [P5056/D2/T22] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.ICacheRefresher, found 0 (took 2ms)
+ 2015-12-08 22:27:34,758 [P5056/D2/T9] INFO  umbraco.content - Save Xml to file...
+ 2015-12-08 22:27:34,777 [P5056/D2/T23] INFO  umbraco.content - Saved Xml to file.
+ 2015-12-08 22:28:15,499 [P5056/D2/T25] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Sistema de Gestión para un Negocio' with Id '1087' has been published.
+ 2015-12-08 22:28:19,546 [P5056/D2/T20] INFO  umbraco.content - Save Xml to file...
+ 2015-12-08 22:28:19,560 [P5056/D2/T28] INFO  umbraco.content - Saved Xml to file.
+ 2015-12-08 22:29:20,691 [P5056/D2/T29] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Sistema de Gestión para un Negocio' with Id '1087' has been published.
+ 2015-12-08 22:29:24,936 [P5056/D2/T27] INFO  umbraco.content - Save Xml to file...
+ 2015-12-08 22:29:24,951 [P5056/D2/T34] INFO  umbraco.content - Saved Xml to file.
+ 2015-12-08 22:30:05,569 [P5056/D2/T11] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Sistema de Gestión para un Negocio' with Id '1087' has been published.
+ 2015-12-08 22:30:09,774 [P5056/D2/T31] INFO  umbraco.content - Save Xml to file...
+ 2015-12-08 22:30:09,783 [P5056/D2/T28] INFO  umbraco.content - Saved Xml to file.
+ 2015-12-08 22:30:22,157 [P5056/D2/T35] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Sistema de Gestión para un Negocio' with Id '1087' has been published.
+ 2015-12-08 22:30:26,314 [P5056/D2/T31] INFO  umbraco.content - Save Xml to file...
+ 2015-12-08 22:30:26,328 [P5056/D2/T14] INFO  umbraco.content - Saved Xml to file.
+ 2015-12-08 22:31:43,753 [P5056/D2/T38] ERROR Umbraco.Core.UmbracoApplicationBase - An unhandled exception occurred
+System.Web.HttpUnhandledException (0x80004005): Exception of type 'System.Web.HttpUnhandledException' was thrown. ---> System.InvalidOperationException: No stylesheet property found with name: Image Right
+   at umbraco.cms.presentation.settings.stylesheet.EditStyleSheetProperty.OnLoad(EventArgs e)
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.HandleError(Exception e)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest()
+   at System.Web.UI.Page.ProcessRequestWithNoAssert(HttpContext context)
+   at System.Web.UI.Page.ProcessRequest(HttpContext context)
+   at ASP.umbraco_settings_stylesheet_property_editstylesheetproperty_aspx.ProcessRequest(HttpContext context)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+ 2015-12-08 22:31:54,214 [P5056/D2/T31] ERROR Umbraco.Core.UmbracoApplicationBase - An unhandled exception occurred
+System.Web.HttpUnhandledException (0x80004005): Exception of type 'System.Web.HttpUnhandledException' was thrown. ---> System.InvalidOperationException: No stylesheet property found with name: Image Right
+   at umbraco.cms.presentation.settings.stylesheet.EditStyleSheetProperty.OnLoad(EventArgs e)
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.HandleError(Exception e)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest()
+   at System.Web.UI.Page.ProcessRequestWithNoAssert(HttpContext context)
+   at System.Web.UI.Page.ProcessRequest(HttpContext context)
+   at ASP.umbraco_settings_stylesheet_property_editstylesheetproperty_aspx.ProcessRequest(HttpContext context)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+ 2015-12-08 22:31:59,559 [P5056/D2/T31] ERROR Umbraco.Web.Trees.LegacyTreeController - Could not render menu for treeType stylesheetProperty for node id -1
+System.ApplicationException: Could not find the node with id rte_Image Right in the collection of nodes contained with parent id -1
+ 2015-12-08 22:32:03,900 [P5056/D2/T38] ERROR Umbraco.Web.Trees.LegacyTreeController - Could not render menu for treeType stylesheetProperty for node id -1
+System.ApplicationException: Could not find the node with id rte_Image Right in the collection of nodes contained with parent id -1
+ 2015-12-08 22:32:05,092 [P5056/D2/T31] ERROR Umbraco.Web.Trees.LegacyTreeController - Could not render menu for treeType stylesheetProperty for node id -1
+System.ApplicationException: Could not find the node with id rte_Image Right in the collection of nodes contained with parent id -1
+ 2015-12-08 22:33:10,485 [P5056/D2/T30] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Sistema de Gestión para un Negocio' with Id '1087' has been published.
+ 2015-12-08 22:33:14,627 [P5056/D2/T11] INFO  umbraco.content - Save Xml to file...
+ 2015-12-08 22:33:14,649 [P5056/D2/T28] INFO  umbraco.content - Saved Xml to file.
+ 2015-12-08 22:34:04,675 [P5056/D2/T38] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Sistema de Gestión para un Negocio' with Id '1087' has been published.
+ 2015-12-08 22:34:08,815 [P5056/D2/T12] INFO  umbraco.content - Save Xml to file...
+ 2015-12-08 22:34:08,836 [P5056/D2/T9] INFO  umbraco.content - Saved Xml to file.
+ 2015-12-08 22:36:25,056 [P5056/D2/T51] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Sistema de Gestión para un Negocio' with Id '1087' has been published.
+ 2015-12-08 22:36:29,297 [P5056/D2/T25] INFO  umbraco.content - Save Xml to file...
+ 2015-12-08 22:36:29,326 [P5056/D2/T58] INFO  umbraco.content - Saved Xml to file.
+ 2015-12-08 23:38:02,018 [P960/D2/T1] INFO  Umbraco.Core.CoreBootManager - Umbraco 7.3.3 application starting on NOTEBOOK-ACER
+ 2015-12-08 23:38:04,184 [P960/D2/T1] INFO  Umbraco.Core.PluginManager - Determining hash of code files on disk
+ 2015-12-08 23:38:04,217 [P960/D2/T1] INFO  Umbraco.Core.PluginManager - Hash determined (took 31ms)
+ 2015-12-08 23:38:04,674 [P960/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.IApplicationStartupHandler
+ 2015-12-08 23:38:06,565 [P960/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.IApplicationStartupHandler, found 0 (took 1891ms)
+ 2015-12-08 23:38:07,682 [P960/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter
+ 2015-12-08 23:38:07,687 [P960/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter, found 0 (took 4ms)
+ 2015-12-08 23:38:07,691 [P960/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyValueConverter
+ 2015-12-08 23:38:07,693 [P960/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyValueConverter, found 0 (took 2ms)
+ 2015-12-08 23:38:07,812 [P960/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.Mvc.SurfaceController
+ 2015-12-08 23:38:07,823 [P960/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.Mvc.SurfaceController, found 0 (took 11ms)
+ 2015-12-08 23:38:07,829 [P960/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.WebApi.UmbracoApiController
+ 2015-12-08 23:38:07,837 [P960/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.WebApi.UmbracoApiController, found 0 (took 8ms)
+ 2015-12-08 23:38:08,711 [P960/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.Media.IThumbnailProvider
+ 2015-12-08 23:38:08,715 [P960/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.Media.IThumbnailProvider, found 0 (took 3ms)
+ 2015-12-08 23:38:08,716 [P960/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.Media.IImageUrlProvider
+ 2015-12-08 23:38:08,717 [P960/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.Media.IImageUrlProvider, found 0 (took 1ms)
+ 2015-12-08 23:38:13,255 [P960/D2/T1] INFO  Umbraco.Core.DatabaseContext - CanConnect = True
+ 2015-12-08 23:38:16,016 [P960/D2/T1] INFO  Umbraco.Core.DatabaseContext - CanConnect = True
+ 2015-12-08 23:38:16,801 [P960/D2/T1] INFO  Umbraco.Core.DatabaseContext - CanConnect = True
+ 2015-12-08 23:38:17,141 [P960/D2/T1] INFO  Umbraco.Web.Cache.CacheRefresherEventHandler - Initializing Umbraco internal event handlers for cache refreshing
+ 2015-12-08 23:38:18,963 [P960/D2/T1] INFO  Umbraco.Web.Search.ExamineEvents - Initializing Examine and binding to business logic events
+ 2015-12-08 23:38:20,155 [P960/D2/T1] INFO  Umbraco.Web.Search.ExamineEvents - Adding examine event handlers for index providers: 3
+ 2015-12-08 23:38:20,683 [P960/D2/T1] INFO  Umbraco.Core.CoreBootManager - Umbraco application startup complete (took 19058ms)
+ 2015-12-08 23:38:36,252 [P960/D2/T5] INFO  Umbraco.Core.Sync.ApplicationUrlHelper - ApplicationUrl: http://localhost:54276/umbraco (UmbracoModule request)
+ 2015-12-08 23:38:37,533 [P960/D2/T5] INFO  umbraco.content - Load Xml from file...
+ 2015-12-08 23:38:37,545 [P960/D2/T5] INFO  umbraco.content - Loaded Xml from file.
+ 2015-12-08 23:38:38,533 [P960/D2/T5] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.Persistence.Mappers.BaseMapper
+ 2015-12-08 23:38:38,549 [P960/D2/T5] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.Persistence.Mappers.BaseMapper, found 0 (took 16ms)
+ 2015-12-08 23:38:43,111 [P960/D2/T5] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.PropertyEditors.IParameterEditor
+ 2015-12-08 23:38:43,129 [P960/D2/T5] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.PropertyEditors.IParameterEditor, found 0 (took 17ms)
+ 2015-12-08 23:38:45,636 [P960/D2/T5] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.PropertyEditors.IParameterEditor
+ 2015-12-08 23:38:45,638 [P960/D2/T5] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.PropertyEditors.IParameterEditor, found 0 (took 1ms)
+ 2015-12-08 23:38:45,709 [P960/D2/T5] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.cms.businesslogic.macro.IMacroEngine
+ 2015-12-08 23:38:45,717 [P960/D2/T5] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.cms.businesslogic.macro.IMacroEngine, found 0 (took 7ms)
+ 2015-12-08 23:39:47,671 [P960/D2/T5] INFO  umbraco.BusinessLogic.Log - Log scrubbed.  Removed all items older than 2015-12-07 23:39:47
+ 2015-12-08 23:40:08,881 [P960/D2/T17] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: Login attempt succeeded for username hernandemczuk@gmail.com from IP address ::1
+ 2015-12-08 23:40:08,885 [P960/D2/T17] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: User: hernandemczuk@gmail.com logged in from IP address ::1
+ 2015-12-08 23:40:09,419 [P960/D2/T17] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.Trees.TreeController
+ 2015-12-08 23:40:09,422 [P960/D2/T17] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.Trees.TreeController, found 0 (took 2ms)
+ 2015-12-08 23:40:10,020 [P960/D2/T17] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.IApplication
+ 2015-12-08 23:40:10,030 [P960/D2/T17] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.IApplication, found 0 (took 9ms)
+ 2015-12-08 23:40:10,288 [P960/D2/T10] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.ITree
+ 2015-12-08 23:40:10,290 [P960/D2/T10] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.ITree, found 0 (took 2ms)
+ 2015-12-08 23:40:10,339 [P960/D2/T10] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.Trees.TreeController
+ 2015-12-08 23:40:10,339 [P960/D2/T10] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.Trees.TreeController, found 0 (took 0ms)
+ 2015-12-08 23:40:10,343 [P960/D2/T10] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.ITree
+ 2015-12-08 23:40:10,344 [P960/D2/T10] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.ITree, found 0 (took 0ms)
+ 2015-12-08 23:44:18,078 [P960/D2/T20] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Sistema de Gestión para un Negocio' with Id '1087' has been published.
+ 2015-12-08 23:44:18,415 [P960/D2/T20] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.ICacheRefresher
+ 2015-12-08 23:44:18,444 [P960/D2/T20] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.ICacheRefresher, found 0 (took 28ms)
+ 2015-12-08 23:44:23,079 [P960/D2/T9] INFO  umbraco.content - Save Xml to file...
+ 2015-12-08 23:44:23,747 [P960/D2/T25] INFO  umbraco.content - Saved Xml to file.
+ 2015-12-08 23:45:20,851 [P960/D2/T22] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Sistema de Gestión para un Negocio' with Id '1087' has been published.
+ 2015-12-08 23:45:25,694 [P960/D2/T25] INFO  umbraco.content - Save Xml to file...
+ 2015-12-08 23:45:25,732 [P960/D2/T28] INFO  umbraco.content - Saved Xml to file.
+ 2015-12-08 23:46:10,549 [P960/D2/T8] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Sistema de Gestión para un Negocio' with Id '1087' has been published.
+ 2015-12-08 23:46:14,717 [P960/D2/T25] INFO  umbraco.content - Save Xml to file...
+ 2015-12-08 23:46:14,746 [P960/D2/T17] INFO  umbraco.content - Saved Xml to file.
+ 2015-12-08 23:47:23,558 [P960/D2/T33] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Sistema de Gestión para un Negocio' with Id '1087' has been published.
+ 2015-12-08 23:47:27,675 [P960/D2/T11] INFO  umbraco.content - Save Xml to file...
+ 2015-12-08 23:47:27,764 [P960/D2/T11] INFO  umbraco.content - Saved Xml to file.
+ 2015-12-08 23:47:36,879 [P960/D2/T30] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Sistema de Gestión para un Negocio' with Id '1087' has been published.
+ 2015-12-08 23:47:41,024 [P960/D2/T11] INFO  umbraco.content - Save Xml to file...
+ 2015-12-08 23:47:41,041 [P960/D2/T16] INFO  umbraco.content - Saved Xml to file.
+ 2015-12-08 23:48:23,007 [P960/D2/T34] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Sistema de Gestión para un Negocio' with Id '1087' has been published.
+ 2015-12-08 23:48:27,173 [P960/D2/T33] INFO  umbraco.content - Save Xml to file...
+ 2015-12-08 23:48:27,192 [P960/D2/T36] INFO  umbraco.content - Saved Xml to file.
+ 2015-12-08 23:48:45,443 [P960/D2/T35] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Sistema de Gestión para un Negocio' with Id '1087' has been published.
+ 2015-12-08 23:48:49,704 [P960/D2/T34] INFO  umbraco.content - Save Xml to file...
+ 2015-12-08 23:48:49,926 [P960/D2/T26] INFO  umbraco.content - Saved Xml to file.
+ 2015-12-08 23:49:24,611 [P960/D2/T30] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Sistema de Gestión para un Negocio' with Id '1087' has been published.
+ 2015-12-08 23:49:28,936 [P960/D2/T35] INFO  umbraco.content - Save Xml to file...
+ 2015-12-08 23:49:29,215 [P960/D2/T26] INFO  umbraco.content - Saved Xml to file.
+ 2015-12-08 23:51:27,880 [P960/D2/T18] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Sistema de Gestión para un Negocio' with Id '1087' has been published.
+ 2015-12-08 23:51:32,248 [P960/D2/T27] INFO  umbraco.content - Save Xml to file...
+ 2015-12-08 23:51:32,492 [P960/D2/T10] INFO  umbraco.content - Saved Xml to file.
+ 2015-12-08 23:57:48,760 [P960/D2/T13] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.Trees.TreeController
+ 2015-12-08 23:57:48,760 [P960/D2/T13] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.Trees.TreeController, found 0 (took 0ms)
